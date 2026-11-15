@@ -1,0 +1,27 @@
+{
+  "started_at": "2026-11-15T13:29:29.304933+00:00",
+  "finished_at": "2026-11-15T13:29:39.145633+00:00",
+  "command": [
+    "strace",
+    "-f",
+    "-qq",
+    "-e",
+    "trace=network",
+    "-e",
+    "inject=socket:error=ENETUNREACH",
+    "-o",
+    "/workspace/SmartGov-IDA/evaluation/results/offline-network.trace",
+    "/workspace/smartgov-venv/bin/python",
+    "-m",
+    "pytest",
+    "-q",
+    "--junitxml=/workspace/SmartGov-IDA/evaluation/results/offline-tests.xml"
+  ],
+  "exit_code": 0,
+  "method": "strace blocks all socket() syscalls with ENETUNREACH; trace=network includes native calls and child processes",
+  "trace_available": true,
+  "network_trace_bytes": 15825,
+  "trace_sha256": "0e062b329d848985f455466a6b3f117042188d0a3e2ee57be642bde21ca8178f",
+  "internet_socket_attempts": 0,
+  "scope": "Full local unit/integration/API/backup tests; ASGI in-process requests and local IPC only. Browser and clean offline installation have separate reports."
+}

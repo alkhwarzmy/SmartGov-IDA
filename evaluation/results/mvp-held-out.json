@@ -1,0 +1,977 @@
+{
+  "created_at": "2026-11-15T13:14:27.439306+00:00",
+  "test_documents": 8,
+  "reference_documents": 8,
+  "digital_cases": 8,
+  "ocr_cases": 8,
+  "code_sha256": {
+    "src/archive_system/classification/rules.py": "b0e13c21b8f0c97fd63b34bffa3e3a71b9e306796afea726d43de87b97b9b82c",
+    "src/archive_system/extraction/rules.py": "017e0e8e19211ab9f2ccae050d3695fdeadd2bc2fcd3cfea0ff2454c711cb067",
+    "src/archive_system/validation/fields.py": "20db68dc596eefc24815204e30327abcf556cc86bdc014c1dca5e2ff6f3fbb46"
+  },
+  "held_out_annotations_unchanged": true,
+  "reference_text": {
+    "classification": {
+      "confusion_matrix": {
+        "letter": {
+          "letter": 3,
+          "invoice": 0,
+          "unknown": 0
+        },
+        "invoice": {
+          "letter": 0,
+          "invoice": 3,
+          "unknown": 0
+        },
+        "unknown": {
+          "letter": 0,
+          "invoice": 0,
+          "unknown": 2
+        }
+      },
+      "per_class": {
+        "letter": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "invoice": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "unknown": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        }
+      },
+      "macro_f1": 1.0
+    },
+    "extraction": {
+      "per_field": {
+        "currency": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "date": {
+          "samples": 6,
+          "truth_unresolved_or_missing": 2,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 4,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "invoice_number": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "letter_number": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "recipient": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "sender": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "subject": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "supplier": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 3,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        },
+        "total": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 1.0,
+          "normalized_exact_match": 1.0,
+          "tp": 2,
+          "fp": 0,
+          "fn": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0
+        }
+      },
+      "supported_documents": 6,
+      "all_required_values_correct": 1.0,
+      "note": "Exact-value presence F1; a wrong non-null value counts as FP and FN. NEM includes expected nulls, reported separately. Value correctness does not establish review completion or calendar certainty."
+    }
+  },
+  "digital": {
+    "classification": {
+      "confusion_matrix": {
+        "letter": {
+          "letter": 3,
+          "invoice": 0,
+          "unknown": 0
+        },
+        "invoice": {
+          "letter": 0,
+          "invoice": 3,
+          "unknown": 0
+        },
+        "unknown": {
+          "letter": 0,
+          "invoice": 0,
+          "unknown": 2
+        }
+      },
+      "per_class": {
+        "letter": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "invoice": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "unknown": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        }
+      },
+      "macro_f1": 1.0
+    },
+    "extraction": {
+      "per_field": {
+        "currency": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.3333333333333333,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date": {
+          "samples": 6,
+          "truth_unresolved_or_missing": 2,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "letter_number": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "recipient": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "sender": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subject": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.3333333333333333,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "supplier": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "supported_documents": 6,
+      "all_required_values_correct": 0.0,
+      "note": "Exact-value presence F1; a wrong non-null value counts as FP and FN. NEM includes expected nulls, reported separately. Value correctness does not establish review completion or calendar certainty."
+    },
+    "text": {
+      "raw": {
+        "char_errors": 40,
+        "characters": 803,
+        "word_errors": 32,
+        "words": 141,
+        "cer": 0.049813200498132,
+        "wer": 0.22695035460992907
+      },
+      "normalized": {
+        "char_errors": 60,
+        "characters": 795,
+        "word_errors": 32,
+        "words": 141,
+        "cer": 0.07547169811320754,
+        "wer": 0.22695035460992907
+      }
+    }
+  },
+  "ocr": {
+    "classification": {
+      "confusion_matrix": {
+        "letter": {
+          "letter": 3,
+          "invoice": 0,
+          "unknown": 0
+        },
+        "invoice": {
+          "letter": 0,
+          "invoice": 3,
+          "unknown": 0
+        },
+        "unknown": {
+          "letter": 0,
+          "invoice": 0,
+          "unknown": 2
+        }
+      },
+      "per_class": {
+        "letter": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "invoice": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 3
+        },
+        "unknown": {
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "support": 2
+        }
+      },
+      "macro_f1": 1.0
+    },
+    "extraction": {
+      "per_field": {
+        "currency": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.3333333333333333,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "date": {
+          "samples": 6,
+          "truth_unresolved_or_missing": 2,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 4,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "invoice_number": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "letter_number": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "recipient": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "sender": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "subject": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.3333333333333333,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "supplier": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 0,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.0,
+          "tp": 0,
+          "fp": 0,
+          "fn": 3,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        },
+        "total": {
+          "samples": 3,
+          "truth_unresolved_or_missing": 1,
+          "exact_match": 0.0,
+          "normalized_exact_match": 0.3333333333333333,
+          "tp": 0,
+          "fp": 0,
+          "fn": 2,
+          "precision": null,
+          "recall": 0.0,
+          "f1": 0.0
+        }
+      },
+      "supported_documents": 6,
+      "all_required_values_correct": 0.0,
+      "note": "Exact-value presence F1; a wrong non-null value counts as FP and FN. NEM includes expected nulls, reported separately. Value correctness does not establish review completion or calendar certainty."
+    },
+    "text": {
+      "raw": {
+        "char_errors": 158,
+        "characters": 803,
+        "word_errors": 56,
+        "words": 141,
+        "cer": 0.19676214196762143,
+        "wer": 0.3971631205673759
+      },
+      "normalized": {
+        "char_errors": 145,
+        "characters": 795,
+        "word_errors": 56,
+        "words": 141,
+        "cer": 0.18238993710691823,
+        "wer": 0.3971631205673759
+      }
+    }
+  },
+  "startup_seconds": 0.09867858600000545,
+  "peak_rss_bytes": 181972992,
+  "memory_sampling_seconds": 0.01,
+  "storage_bytes": 741124,
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "logical_cpus": 5,
+  "cpu_threads": "1",
+  "model_bytes": 5545144,
+  "reading": [
+    {
+      "document": "test-letter-01",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 6,
+          "characters": 139,
+          "word_errors": 5,
+          "words": 24
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 138,
+          "word_errors": 5,
+          "words": 24
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.005522638000002189,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.006089966000217828,
+        "processing": 0.006984151000324346
+      }
+    },
+    {
+      "document": "test-letter-01",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 19,
+          "characters": 139,
+          "word_errors": 7,
+          "words": 24
+        },
+        "normalized": {
+          "char_errors": 16,
+          "characters": 138,
+          "word_errors": 7,
+          "words": 24
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.07015948599973854,
+        "ocr": 0.2967758979998507,
+        "total": 0.3669369680001182,
+        "processing": 0.36980815900005837
+      }
+    },
+    {
+      "document": "test-letter-02",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 5,
+          "characters": 109,
+          "word_errors": 4,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 8,
+          "characters": 108,
+          "word_errors": 4,
+          "words": 19
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.002299011000104656,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0031574800000271352,
+        "processing": 0.004275162999874738
+      }
+    },
+    {
+      "document": "test-letter-02",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 12,
+          "characters": 109,
+          "word_errors": 5,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 108,
+          "word_errors": 5,
+          "words": 19
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.046475117999762006,
+        "ocr": 0.26515996400030417,
+        "total": 0.3116359239998019,
+        "processing": 0.31437485200012816
+      }
+    },
+    {
+      "document": "test-letter-03",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 6,
+          "characters": 144,
+          "word_errors": 5,
+          "words": 27
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 143,
+          "word_errors": 5,
+          "words": 27
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.002444061000005604,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0029237510002531053,
+        "processing": 0.004857732999880682
+      }
+    },
+    {
+      "document": "test-letter-03",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 21,
+          "characters": 144,
+          "word_errors": 8,
+          "words": 27
+        },
+        "normalized": {
+          "char_errors": 19,
+          "characters": 143,
+          "word_errors": 8,
+          "words": 27
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.04790675899994312,
+        "ocr": 0.29245750900008716,
+        "total": 0.34036472699972364,
+        "processing": 0.34391855800004123
+      }
+    },
+    {
+      "document": "test-invoice-01",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 6,
+          "characters": 109,
+          "word_errors": 5,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 108,
+          "word_errors": 5,
+          "words": 19
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.00262046099987856,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0030734619999748247,
+        "processing": 0.004121206000036182
+      }
+    },
+    {
+      "document": "test-invoice-01",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 26,
+          "characters": 109,
+          "word_errors": 10,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 24,
+          "characters": 108,
+          "word_errors": 10,
+          "words": 19
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.04862978799974371,
+        "ocr": 0.2767904739998812,
+        "total": 0.32542070599993167,
+        "processing": 0.32908004800037816
+      }
+    },
+    {
+      "document": "test-invoice-02",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 5,
+          "characters": 96,
+          "word_errors": 4,
+          "words": 16
+        },
+        "normalized": {
+          "char_errors": 8,
+          "characters": 95,
+          "word_errors": 4,
+          "words": 16
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.0028172259999337257,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.003442035000261967,
+        "processing": 0.004672509000101854
+      }
+    },
+    {
+      "document": "test-invoice-02",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 11,
+          "characters": 96,
+          "word_errors": 7,
+          "words": 16
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 95,
+          "word_errors": 7,
+          "words": 16
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.06141064799976448,
+        "ocr": 0.23372405000009167,
+        "total": 0.29513530499980334,
+        "processing": 0.29786573299998054
+      }
+    },
+    {
+      "document": "test-invoice-03",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 6,
+          "characters": 117,
+          "word_errors": 5,
+          "words": 22
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 116,
+          "word_errors": 5,
+          "words": 22
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.002397288999873126,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.00290143900019757,
+        "processing": 0.004099932999906741
+      }
+    },
+    {
+      "document": "test-invoice-03",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 22,
+          "characters": 117,
+          "word_errors": 10,
+          "words": 22
+        },
+        "normalized": {
+          "char_errors": 20,
+          "characters": 116,
+          "word_errors": 10,
+          "words": 22
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.04818104099967968,
+        "ocr": 0.23926925400019172,
+        "total": 0.2874508549998609,
+        "processing": 0.28885099699982675
+      }
+    },
+    {
+      "document": "test-unknown-01",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 3,
+          "characters": 44,
+          "word_errors": 2,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 43,
+          "word_errors": 2,
+          "words": 7
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.0011531430000104592,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0016308260001096642,
+        "processing": 0.0023233430001710076
+      }
+    },
+    {
+      "document": "test-unknown-01",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 2,
+          "characters": 44,
+          "word_errors": 2,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 43,
+          "word_errors": 2,
+          "words": 7
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.027193009999791684,
+        "ocr": 0.20284852599979786,
+        "total": 0.23004225499971653,
+        "processing": 0.23113246000002619
+      }
+    },
+    {
+      "document": "test-unknown-02",
+      "variant": "digital",
+      "source": [
+        "digital"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 3,
+          "characters": 45,
+          "word_errors": 2,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 44,
+          "word_errors": 2,
+          "words": 7
+        }
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.0011453249999249238,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0016107329997794295,
+        "processing": 0.002615473000332713
+      }
+    },
+    {
+      "document": "test-unknown-02",
+      "variant": "ocr",
+      "source": [
+        "ocr"
+      ],
+      "text_metrics": {
+        "raw": {
+          "char_errors": 45,
+          "characters": 45,
+          "word_errors": 7,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 44,
+          "characters": 44,
+          "word_errors": 7,
+          "words": 7
+        }
+      },
+      "timings_seconds": {
+        "reading": 0.027826820999962365,
+        "ocr": 0.1563571619999493,
+        "total": 0.1841846259999329,
+        "processing": 0.1852006710000751
+      }
+    }
+  ],
+  "limitations": [
+    "Synthetic data only; 8 held-out documents, one author, two template families per supported type across splits",
+    "Tesseract is an assistive OCR candidate, not an accuracy-approved production engine",
+    "Paddle comparison blocked; no claims of engine superiority",
+    "All archived documents require explicit review; date calendar is never inferred from ISO-shaped digits alone"
+  ]
+}

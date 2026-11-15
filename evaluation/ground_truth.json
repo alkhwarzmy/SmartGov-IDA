@@ -1,0 +1,966 @@
+[
+  {
+    "id": "development-letter-01",
+    "split": "development",
+    "template_family": "development-letter-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-letter-01.txt",
+    "sha256": "7b021da78943572572d49ea0494c4b96e7c3e5a92b4afa0be10db82bc3fd2c4d",
+    "pages": 1,
+    "category": "letter",
+    "reference_text": "خطاب إداري\nرقم الخطاب: L-101\nالتاريخ: 2026-11-15\nالمرسل: مكتب الأفق الوهمي\nالمستقبل: إدارة النور الوهمية\nالموضوع: طلب قرطاسية تجريبية\n",
+    "fields": [
+      {
+        "name": "letter_number",
+        "raw_value": "L-101",
+        "normalized_value": "L-101",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الخطاب: L-101"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ: 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "sender",
+        "raw_value": "مكتب الأفق الوهمي",
+        "normalized_value": "مكتب الأفق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المرسل: مكتب الأفق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "recipient",
+        "raw_value": "إدارة النور الوهمية",
+        "normalized_value": "إدارة النور الوهمية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المستقبل: إدارة النور الوهمية"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "subject",
+        "raw_value": "طلب قرطاسية تجريبية",
+        "normalized_value": "طلب قرطاسية تجريبية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الموضوع: طلب قرطاسية تجريبية"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "development-letter-02",
+    "split": "development",
+    "template_family": "development-letter-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-letter-02.txt",
+    "sha256": "6ebed54f560cde1299e9c6b09d59fb6fdaeabcd2db181b07fae758f6fa666959",
+    "pages": 1,
+    "category": "letter",
+    "reference_text": "خطاب إداري\nرقم الخطاب: L-102\nالتاريخ: 2026-11-15\nالمرسل: مكتب الأفق الوهمي\nالمستقبل: إدارة النور الوهمية\n",
+    "fields": [
+      {
+        "name": "letter_number",
+        "raw_value": "L-102",
+        "normalized_value": "L-102",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الخطاب: L-102"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ: 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "sender",
+        "raw_value": "مكتب الأفق الوهمي",
+        "normalized_value": "مكتب الأفق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المرسل: مكتب الأفق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "recipient",
+        "raw_value": "إدارة النور الوهمية",
+        "normalized_value": "إدارة النور الوهمية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المستقبل: إدارة النور الوهمية"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "subject",
+        "raw_value": null,
+        "normalized_value": null,
+        "status": "missing",
+        "sources": [],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "development-letter-03",
+    "split": "development",
+    "template_family": "development-letter-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-letter-03.txt",
+    "sha256": "d30e1b3078bfee0557273a4235c26f8459c6fef48c53c8c46c4a4568c3b4e776",
+    "pages": 1,
+    "category": "letter",
+    "reference_text": "خطاب إداري\nرقم الخطاب: A-12 / A-13\nالتاريخ: غير مقروء\nالمرسل: مكتب الأفق الوهمي\nالمستقبل: إدارة النور الوهمية\nالموضوع: طلب قرطاسية تجريبية\n",
+    "fields": [
+      {
+        "name": "letter_number",
+        "raw_value": "A-12 / A-13",
+        "normalized_value": null,
+        "status": "ambiguous",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الخطاب: A-12 / A-13"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "غير مقروء",
+        "normalized_value": null,
+        "status": "needs_review",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ: غير مقروء"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "sender",
+        "raw_value": "مكتب الأفق الوهمي",
+        "normalized_value": "مكتب الأفق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المرسل: مكتب الأفق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "recipient",
+        "raw_value": "إدارة النور الوهمية",
+        "normalized_value": "إدارة النور الوهمية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المستقبل: إدارة النور الوهمية"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "subject",
+        "raw_value": "طلب قرطاسية تجريبية",
+        "normalized_value": "طلب قرطاسية تجريبية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الموضوع: طلب قرطاسية تجريبية"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "development-invoice-01",
+    "split": "development",
+    "template_family": "development-invoice-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-invoice-01.txt",
+    "sha256": "78c8e027d44487580fd402333b2922f357658c113016920a08ec02c776cfa02c",
+    "pages": 1,
+    "category": "invoice",
+    "reference_text": "فاتورة\nرقم الفاتورة: INV-101\nالتاريخ: 2026-11-15\nالمورد: متجر الورق الوهمي\nالإجمالي: 125.50\nالعملة: SAR\n",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "raw_value": "INV-101",
+        "normalized_value": "INV-101",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الفاتورة: INV-101"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ: 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "supplier",
+        "raw_value": "متجر الورق الوهمي",
+        "normalized_value": "متجر الورق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المورد: متجر الورق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "total",
+        "raw_value": "125.50",
+        "normalized_value": "125.50",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الإجمالي: 125.50"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "currency",
+        "raw_value": "SAR",
+        "normalized_value": "SAR",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "العملة: SAR"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "development-invoice-02",
+    "split": "development",
+    "template_family": "development-invoice-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-invoice-02.txt",
+    "sha256": "e44a352f2b9550a8f0a56aa6cdd6e5f824a802336849f5c5b93fb90907d69588",
+    "pages": 1,
+    "category": "invoice",
+    "reference_text": "فاتورة\nرقم الفاتورة: INV-102\nالتاريخ: 2026-11-15\nالمورد: متجر الورق الوهمي\nالإجمالي: 125.50\n",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "raw_value": "INV-102",
+        "normalized_value": "INV-102",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الفاتورة: INV-102"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ: 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "supplier",
+        "raw_value": "متجر الورق الوهمي",
+        "normalized_value": "متجر الورق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المورد: متجر الورق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "total",
+        "raw_value": "125.50",
+        "normalized_value": "125.50",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الإجمالي: 125.50"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "currency",
+        "raw_value": null,
+        "normalized_value": null,
+        "status": "missing",
+        "sources": [],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "development-invoice-03",
+    "split": "development",
+    "template_family": "development-invoice-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-invoice-03.txt",
+    "sha256": "ec53765ae4f2334d544e9a02b63142d70f2dd97718f64e79267b053dd51622ff",
+    "pages": 1,
+    "category": "invoice",
+    "reference_text": "فاتورة\nرقم الفاتورة: INV-103\nالتاريخ: غير مقروء\nالمورد: متجر الورق الوهمي\nالإجمالي: 125.50 / 152.50\nالعملة: SAR\n",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "raw_value": "INV-103",
+        "normalized_value": "INV-103",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الفاتورة: INV-103"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "غير مقروء",
+        "normalized_value": null,
+        "status": "needs_review",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ: غير مقروء"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "supplier",
+        "raw_value": "متجر الورق الوهمي",
+        "normalized_value": "متجر الورق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المورد: متجر الورق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "total",
+        "raw_value": "125.50 / 152.50",
+        "normalized_value": null,
+        "status": "ambiguous",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الإجمالي: 125.50 / 152.50"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "currency",
+        "raw_value": "SAR",
+        "normalized_value": "SAR",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "العملة: SAR"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "development-unknown-01",
+    "split": "development",
+    "template_family": "development-unknown-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-unknown-01.txt",
+    "sha256": "9123ccde4253adea8a859c7a14a236cfdc247a50c4719b8fea0c15d5eda2f374",
+    "pages": 1,
+    "category": "unknown",
+    "reference_text": "وصف نبات اصطناعي: أوراق خضراء وأزهار بيضاء.\n",
+    "fields": []
+  },
+  {
+    "id": "development-unknown-02",
+    "split": "development",
+    "template_family": "development-unknown-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/development-unknown-02.txt",
+    "sha256": "c856e11c27c50c0a7bf086471c4928187a88a273b3edeacea195e939917913c9",
+    "pages": 1,
+    "category": "unknown",
+    "reference_text": "وصفة تجريبية: اخلط الماء بالدقيق.\n",
+    "fields": []
+  },
+  {
+    "id": "test-letter-01",
+    "split": "test",
+    "template_family": "test-letter-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-letter-01.txt",
+    "sha256": "099f1d9f6ee6282dcd255aa536a850644a71b145c8545adf3d8952fde14c88a1",
+    "pages": 1,
+    "category": "letter",
+    "reference_text": "خطاب إداري\nرقم الخطاب — L-101\nالتاريخ — 2026-11-15\nالمرسل — مكتب الأفق الوهمي\nالمستقبل — إدارة النور الوهمية\nالموضوع — طلب قرطاسية تجريبية\n",
+    "fields": [
+      {
+        "name": "letter_number",
+        "raw_value": "L-101",
+        "normalized_value": "L-101",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الخطاب — L-101"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ — 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "sender",
+        "raw_value": "مكتب الأفق الوهمي",
+        "normalized_value": "مكتب الأفق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المرسل — مكتب الأفق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "recipient",
+        "raw_value": "إدارة النور الوهمية",
+        "normalized_value": "إدارة النور الوهمية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المستقبل — إدارة النور الوهمية"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "subject",
+        "raw_value": "طلب قرطاسية تجريبية",
+        "normalized_value": "طلب قرطاسية تجريبية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الموضوع — طلب قرطاسية تجريبية"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "test-letter-02",
+    "split": "test",
+    "template_family": "test-letter-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-letter-02.txt",
+    "sha256": "5d3889c50c37311693019cbcef849842a01fc86829405f76db2940eaf2a2e6f2",
+    "pages": 1,
+    "category": "letter",
+    "reference_text": "خطاب إداري\nرقم الخطاب — L-102\nالتاريخ — 2026-11-15\nالمرسل — مكتب الأفق الوهمي\nالمستقبل — إدارة النور الوهمية\n",
+    "fields": [
+      {
+        "name": "letter_number",
+        "raw_value": "L-102",
+        "normalized_value": "L-102",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الخطاب — L-102"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ — 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "sender",
+        "raw_value": "مكتب الأفق الوهمي",
+        "normalized_value": "مكتب الأفق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المرسل — مكتب الأفق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "recipient",
+        "raw_value": "إدارة النور الوهمية",
+        "normalized_value": "إدارة النور الوهمية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المستقبل — إدارة النور الوهمية"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "subject",
+        "raw_value": null,
+        "normalized_value": null,
+        "status": "missing",
+        "sources": [],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "test-letter-03",
+    "split": "test",
+    "template_family": "test-letter-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-letter-03.txt",
+    "sha256": "3827c759e5ed4bd931dc67ee8649902de5b5042de250904c3d990a04ce9babdb",
+    "pages": 1,
+    "category": "letter",
+    "reference_text": "خطاب إداري\nرقم الخطاب — A-12 / A-13\nالتاريخ — غير مقروء\nالمرسل — مكتب الأفق الوهمي\nالمستقبل — إدارة النور الوهمية\nالموضوع — طلب قرطاسية تجريبية\n",
+    "fields": [
+      {
+        "name": "letter_number",
+        "raw_value": "A-12 / A-13",
+        "normalized_value": null,
+        "status": "ambiguous",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الخطاب — A-12 / A-13"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "غير مقروء",
+        "normalized_value": null,
+        "status": "needs_review",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ — غير مقروء"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "sender",
+        "raw_value": "مكتب الأفق الوهمي",
+        "normalized_value": "مكتب الأفق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المرسل — مكتب الأفق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "recipient",
+        "raw_value": "إدارة النور الوهمية",
+        "normalized_value": "إدارة النور الوهمية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المستقبل — إدارة النور الوهمية"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "subject",
+        "raw_value": "طلب قرطاسية تجريبية",
+        "normalized_value": "طلب قرطاسية تجريبية",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الموضوع — طلب قرطاسية تجريبية"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "test-invoice-01",
+    "split": "test",
+    "template_family": "test-invoice-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-invoice-01.txt",
+    "sha256": "2bd65dbeb52d06f2e146d4f85f95142e2746b6749300edfd1b0459916a95cc16",
+    "pages": 1,
+    "category": "invoice",
+    "reference_text": "فاتورة\nرقم الفاتورة — INV-101\nالتاريخ — 2026-11-15\nالمورد — متجر الورق الوهمي\nالإجمالي — 125.50\nالعملة — SAR\n",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "raw_value": "INV-101",
+        "normalized_value": "INV-101",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الفاتورة — INV-101"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ — 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "supplier",
+        "raw_value": "متجر الورق الوهمي",
+        "normalized_value": "متجر الورق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المورد — متجر الورق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "total",
+        "raw_value": "125.50",
+        "normalized_value": "125.50",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الإجمالي — 125.50"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "currency",
+        "raw_value": "SAR",
+        "normalized_value": "SAR",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "العملة — SAR"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "test-invoice-02",
+    "split": "test",
+    "template_family": "test-invoice-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-invoice-02.txt",
+    "sha256": "b56fb8cc691dc48fcef9d9d900255c2773a15bd92aa71027f883bb81c0dc69e0",
+    "pages": 1,
+    "category": "invoice",
+    "reference_text": "فاتورة\nرقم الفاتورة — INV-102\nالتاريخ — 2026-11-15\nالمورد — متجر الورق الوهمي\nالإجمالي — 125.50\n",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "raw_value": "INV-102",
+        "normalized_value": "INV-102",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الفاتورة — INV-102"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "2026-11-15",
+        "normalized_value": "2026-11-15",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ — 2026-11-15"
+          }
+        ],
+        "calendar": "gregorian"
+      },
+      {
+        "name": "supplier",
+        "raw_value": "متجر الورق الوهمي",
+        "normalized_value": "متجر الورق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المورد — متجر الورق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "total",
+        "raw_value": "125.50",
+        "normalized_value": "125.50",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الإجمالي — 125.50"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "currency",
+        "raw_value": null,
+        "normalized_value": null,
+        "status": "missing",
+        "sources": [],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "test-invoice-03",
+    "split": "test",
+    "template_family": "test-invoice-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-invoice-03.txt",
+    "sha256": "0ed365f68baa924192199bbfb4dcc1ef7fd865ab5d0f30312efef8b8578bbae2",
+    "pages": 1,
+    "category": "invoice",
+    "reference_text": "فاتورة\nرقم الفاتورة — INV-103\nالتاريخ — غير مقروء\nالمورد — متجر الورق الوهمي\nالإجمالي — 125.50 / 152.50\nالعملة — SAR\n",
+    "fields": [
+      {
+        "name": "invoice_number",
+        "raw_value": "INV-103",
+        "normalized_value": "INV-103",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "رقم الفاتورة — INV-103"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "date",
+        "raw_value": "غير مقروء",
+        "normalized_value": null,
+        "status": "needs_review",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "التاريخ — غير مقروء"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "supplier",
+        "raw_value": "متجر الورق الوهمي",
+        "normalized_value": "متجر الورق الوهمي",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "المورد — متجر الورق الوهمي"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "total",
+        "raw_value": "125.50 / 152.50",
+        "normalized_value": null,
+        "status": "ambiguous",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "الإجمالي — 125.50 / 152.50"
+          }
+        ],
+        "calendar": "unknown"
+      },
+      {
+        "name": "currency",
+        "raw_value": "SAR",
+        "normalized_value": "SAR",
+        "status": "valid",
+        "sources": [
+          {
+            "page": 1,
+            "snippet": "العملة — SAR"
+          }
+        ],
+        "calendar": "unknown"
+      }
+    ]
+  },
+  {
+    "id": "test-unknown-01",
+    "split": "test",
+    "template_family": "test-unknown-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-unknown-01.txt",
+    "sha256": "d73ef19043bffd0b5dad2d5e4be875d9db64db576c7488478a5e47480e03bcea",
+    "pages": 1,
+    "category": "unknown",
+    "reference_text": "إرشادات لعبة خيالية: حرك القطعة إلى الأمام.\n",
+    "fields": []
+  },
+  {
+    "id": "test-unknown-02",
+    "split": "test",
+    "template_family": "test-unknown-template",
+    "source_id": "synthetic-v1",
+    "text_path": "evaluation/data/test-unknown-02.txt",
+    "sha256": "76d3a745259849f9cdf12d28243d497e4e45e70b288059e5f6ab53dee6f1a710",
+    "pages": 1,
+    "category": "unknown",
+    "reference_text": "ملاحظة أدبية وهمية: أشرقت الشمس على الحديقة.\n",
+    "fields": []
+  }
+]

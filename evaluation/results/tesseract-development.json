@@ -1,0 +1,1204 @@
+{
+  "created_at": "2026-11-15T12:46:42.089521+00:00",
+  "engine": "tesseract",
+  "engine_version": "tesseract 5.5.1",
+  "split": "development",
+  "settings": {
+    "languages": "ara+eng",
+    "psm": 6,
+    "oem": "LSTM_ONLY",
+    "dpi": 200,
+    "workers": 1
+  },
+  "model_load_seconds": 0.16540644399992743,
+  "process_peak_rss_bytes": 183922688,
+  "memory_method": "RSS sampled every 10ms, imports/model/pages included; short peaks may be missed",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "python": "3.12.14",
+  "logical_cpus": 5,
+  "model_bytes": 5545144,
+  "documents": 8,
+  "reading_cases": 32,
+  "network_guard": true,
+  "network_attempts": [],
+  "by_variant": {
+    "digital_pdf": {
+      "raw": {
+        "char_errors": 68,
+        "characters": 764,
+        "word_errors": 60,
+        "words": 111,
+        "cer": 0.08900523560209424,
+        "wer": 0.5405405405405406
+      },
+      "normalized": {
+        "char_errors": 60,
+        "characters": 756,
+        "word_errors": 60,
+        "words": 111,
+        "cer": 0.07936507936507936,
+        "wer": 0.5405405405405406
+      }
+    },
+    "jpeg": {
+      "raw": {
+        "char_errors": 195,
+        "characters": 764,
+        "word_errors": 71,
+        "words": 111,
+        "cer": 0.25523560209424084,
+        "wer": 0.6396396396396397
+      },
+      "normalized": {
+        "char_errors": 184,
+        "characters": 756,
+        "word_errors": 71,
+        "words": 111,
+        "cer": 0.24338624338624337,
+        "wer": 0.6396396396396397
+      }
+    },
+    "png": {
+      "raw": {
+        "char_errors": 190,
+        "characters": 764,
+        "word_errors": 69,
+        "words": 111,
+        "cer": 0.2486910994764398,
+        "wer": 0.6216216216216216
+      },
+      "normalized": {
+        "char_errors": 179,
+        "characters": 756,
+        "word_errors": 69,
+        "words": 111,
+        "cer": 0.23677248677248677,
+        "wer": 0.6216216216216216
+      }
+    },
+    "scanned_pdf": {
+      "raw": {
+        "char_errors": 190,
+        "characters": 764,
+        "word_errors": 69,
+        "words": 111,
+        "cer": 0.2486910994764398,
+        "wer": 0.6216216216216216
+      },
+      "normalized": {
+        "char_errors": 179,
+        "characters": 756,
+        "word_errors": 69,
+        "words": 111,
+        "cer": 0.23677248677248677,
+        "wer": 0.6216216216216216
+      }
+    }
+  },
+  "png_by_category": {
+    "invoice": {
+      "raw": {
+        "char_errors": 57,
+        "characters": 308,
+        "word_errors": 29,
+        "words": 43,
+        "cer": 0.18506493506493507,
+        "wer": 0.6744186046511628
+      },
+      "normalized": {
+        "char_errors": 52,
+        "characters": 305,
+        "word_errors": 29,
+        "words": 43,
+        "cer": 0.17049180327868851,
+        "wer": 0.6744186046511628
+      }
+    },
+    "letter": {
+      "raw": {
+        "char_errors": 97,
+        "characters": 378,
+        "word_errors": 33,
+        "words": 56,
+        "cer": 0.2566137566137566,
+        "wer": 0.5892857142857143
+      },
+      "normalized": {
+        "char_errors": 92,
+        "characters": 375,
+        "word_errors": 33,
+        "words": 56,
+        "cer": 0.24533333333333332,
+        "wer": 0.5892857142857143
+      }
+    },
+    "unknown": {
+      "raw": {
+        "char_errors": 36,
+        "characters": 78,
+        "word_errors": 7,
+        "words": 12,
+        "cer": 0.46153846153846156,
+        "wer": 0.5833333333333334
+      },
+      "normalized": {
+        "char_errors": 35,
+        "characters": 76,
+        "word_errors": 7,
+        "words": 12,
+        "cer": 0.4605263157894737,
+        "wer": 0.5833333333333334
+      }
+    }
+  },
+  "rows": [
+    {
+      "document_id": "development-letter-01",
+      "category": "letter",
+      "variant": "png",
+      "sha256": "01cc7e54761bb0bd299ad98d8430e604610f7818d63ed9d9039bfbfa91860ce5",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب ‎L-101:‏\n‏التاريخ :2026-11-15\nالمرسل *مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 41,
+          "characters": 134,
+          "word_errors": 12,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 40,
+          "characters": 133,
+          "word_errors": 12,
+          "words": 19
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.20607761399992341,
+        "ocr": 0.3768304650000118,
+        "total": 0.5829106379999303
+      },
+      "regions": 15
+    },
+    {
+      "document_id": "development-letter-01",
+      "category": "letter",
+      "variant": "jpeg",
+      "sha256": "cabeeab4c8ee84fcef426296b130908027c35527dfd0f59c9ecc951c4dedd2f4",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب ‎L-101:‏\n‏التاريخ :2026-11-15\nالمرسل *مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 41,
+          "characters": 134,
+          "word_errors": 12,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 40,
+          "characters": 133,
+          "word_errors": 12,
+          "words": 19
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.032076329999881636,
+        "ocr": 0.24482205900017107,
+        "total": 0.2768994529999418
+      },
+      "regions": 15
+    },
+    {
+      "document_id": "development-letter-01",
+      "category": "letter",
+      "variant": "digital_pdf",
+      "sha256": "081ed9ed4bea9f5924428d1aca91d0b1750f70d8ed4a055fb10e94294825190f",
+      "source": "digital",
+      "text": "خطاب إداري\nرقم الخطاب :L-101\nالتاريخ :2026-11-15\nالمرسل :مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\nالموضوع :طلب قرطاسية تجريبية",
+      "metrics": {
+        "raw": {
+          "char_errors": 11,
+          "characters": 134,
+          "word_errors": 10,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 133,
+          "word_errors": 10,
+          "words": 19
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.006701093999936347,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.007430007000039041
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-letter-01",
+      "category": "letter",
+      "variant": "scanned_pdf",
+      "sha256": "9bdea36fa8712b0ec34473a12249e860ad9fc498f57cf0ab9234526243016b09",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب ‎L-101:‏\n‏التاريخ :2026-11-15\nالمرسل *مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 41,
+          "characters": 134,
+          "word_errors": 12,
+          "words": 19
+        },
+        "normalized": {
+          "char_errors": 40,
+          "characters": 133,
+          "word_errors": 12,
+          "words": 19
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.0003174470000431029,
+        "render": 0.06861446299990348,
+        "ocr": 0.26829266100003224,
+        "total": 0.3378697089999605
+      },
+      "regions": 15
+    },
+    {
+      "document_id": "development-letter-02",
+      "category": "letter",
+      "variant": "png",
+      "sha256": "73dd436a960613b3787036514be8f513188838b20ad49d649e6c4d40a8be7507",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب :102-|\nالتاريخ :2026-11-15\nالمرسل *مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 12,
+          "characters": 105,
+          "word_errors": 8,
+          "words": 15
+        },
+        "normalized": {
+          "char_errors": 11,
+          "characters": 104,
+          "word_errors": 8,
+          "words": 15
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.048631680999960736,
+        "ocr": 0.23737056499999198,
+        "total": 0.28600267899992105
+      },
+      "regions": 15
+    },
+    {
+      "document_id": "development-letter-02",
+      "category": "letter",
+      "variant": "jpeg",
+      "sha256": "c5f45c7fbf967032f08c6bb5c84cb17367b5e8aff48b9bc1201b1c94aa581c4f",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقع القطاب 31921 ]\nالتاريخ :2026-11-15\nالمرسل *مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 16,
+          "characters": 105,
+          "word_errors": 10,
+          "words": 15
+        },
+        "normalized": {
+          "char_errors": 15,
+          "characters": 104,
+          "word_errors": 10,
+          "words": 15
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.029225558999996792,
+        "ocr": 0.24432927599991672,
+        "total": 0.27355557400005637
+      },
+      "regions": 16
+    },
+    {
+      "document_id": "development-letter-02",
+      "category": "letter",
+      "variant": "digital_pdf",
+      "sha256": "cd2b2bd09cd595198e84c5383baa0ad8e38e7ebc4bdaeb4514a3516ae73214ac",
+      "source": "digital",
+      "text": "خطاب إداري\nرقم الخطاب :L-102\nالتاريخ :2026-11-15\nالمرسل :مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية",
+      "metrics": {
+        "raw": {
+          "char_errors": 9,
+          "characters": 105,
+          "word_errors": 8,
+          "words": 15
+        },
+        "normalized": {
+          "char_errors": 8,
+          "characters": 104,
+          "word_errors": 8,
+          "words": 15
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.0019929879999835975,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0025125539998498425
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-letter-02",
+      "category": "letter",
+      "variant": "scanned_pdf",
+      "sha256": "5bb12b21c45b99e8f1003847a83af236f4941da86bb1d72b863837893cfc1ae3",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب :102-|\nالتاريخ :2026-11-15\nالمرسل *مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 12,
+          "characters": 105,
+          "word_errors": 8,
+          "words": 15
+        },
+        "normalized": {
+          "char_errors": 11,
+          "characters": 104,
+          "word_errors": 8,
+          "words": 15
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.0003388149998500012,
+        "render": 0.06917311699999118,
+        "ocr": 0.23884751199989296,
+        "total": 0.3089447019999625
+      },
+      "regions": 15
+    },
+    {
+      "document_id": "development-letter-03",
+      "category": "letter",
+      "variant": "png",
+      "sha256": "766f19c25ca58b690e395039d6acfaece932d33c40facd8cd397f7ee410e6553",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب :8-13 / 8-12\nالتاريخ :غير مقروء\n\nالمرسل *مكتب الأفق الوهمي\n\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 44,
+          "characters": 139,
+          "word_errors": 13,
+          "words": 22
+        },
+        "normalized": {
+          "char_errors": 41,
+          "characters": 138,
+          "word_errors": 13,
+          "words": 22
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.05152737599996726,
+        "ocr": 0.24396278700010043,
+        "total": 0.295490670999925
+      },
+      "regions": 18
+    },
+    {
+      "document_id": "development-letter-03",
+      "category": "letter",
+      "variant": "jpeg",
+      "sha256": "353258fc0c77d5c829397d0ff05729cb114d0ccfda8562ca47f8099fba90f9a3",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب :8-13 / 8-12\nالتاريخ :غير مقروء\n\nالمرسل *مكتب الأفق الوهمي\n\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 44,
+          "characters": 139,
+          "word_errors": 13,
+          "words": 22
+        },
+        "normalized": {
+          "char_errors": 41,
+          "characters": 138,
+          "word_errors": 13,
+          "words": 22
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.03186288400002013,
+        "ocr": 0.2949850879999758,
+        "total": 0.3268485700000383
+      },
+      "regions": 18
+    },
+    {
+      "document_id": "development-letter-03",
+      "category": "letter",
+      "variant": "digital_pdf",
+      "sha256": "6291e3ffa1c95503f33c348ff4054e907ac0ad5aa44969c622011bb607230e17",
+      "source": "digital",
+      "text": "خطاب إداري\nرقم الخطاب :A-12 / A-13\nالتاريخ :غير مقروء\nالمرسل :مكتب الأفق الوهمي\nالمستقبل :إدارة النور الوهمية\nالموضوع :طلب قرطاسية تجريبية",
+      "metrics": {
+        "raw": {
+          "char_errors": 11,
+          "characters": 139,
+          "word_errors": 10,
+          "words": 22
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 138,
+          "word_errors": 10,
+          "words": 22
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.0025187779999669146,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.002951187000007849
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-letter-03",
+      "category": "letter",
+      "variant": "scanned_pdf",
+      "sha256": "2798cbdd1cc437be71349896f31ec59b8625e1b4d75e63455849276813d5d72e",
+      "source": "ocr",
+      "text": "خطاب إداري\n\nرقم الخطاب :8-13 / 8-12\nالتاريخ :غير مقروء\n\nالمرسل *مكتب الأفق الوهمي\n\nالمستقبل :إدارة النور الوهمية\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 44,
+          "characters": 139,
+          "word_errors": 13,
+          "words": 22
+        },
+        "normalized": {
+          "char_errors": 41,
+          "characters": 138,
+          "word_errors": 13,
+          "words": 22
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.0002738910000061878,
+        "render": 0.06900891000009324,
+        "ocr": 0.248606319999908,
+        "total": 0.31838622999998734
+      },
+      "regions": 18
+    },
+    {
+      "document_id": "development-invoice-01",
+      "category": "invoice",
+      "variant": "png",
+      "sha256": "2878a384bdb0876a57fd9c9bba3c643d12c4b6a190cae8ea9c8dcc3ad101b929",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-101!‏\n‏التاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50\n\nSAR: ‏العملة‎\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 24,
+          "characters": 104,
+          "word_errors": 10,
+          "words": 14
+        },
+        "normalized": {
+          "char_errors": 22,
+          "characters": 103,
+          "word_errors": 10,
+          "words": 14
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.05146222400003353,
+        "ocr": 0.25680529099986416,
+        "total": 0.30826846400009345
+      },
+      "regions": 14
+    },
+    {
+      "document_id": "development-invoice-01",
+      "category": "invoice",
+      "variant": "jpeg",
+      "sha256": "6aaea2cb978a73964c24505a85a1cd1c3096a24db01e3ddb15c82fcd5620a377",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-101:!‏\n‏التاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50\n\nSAR: ‏العملة‎\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 25,
+          "characters": 104,
+          "word_errors": 10,
+          "words": 14
+        },
+        "normalized": {
+          "char_errors": 23,
+          "characters": 103,
+          "word_errors": 10,
+          "words": 14
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.029977345999895988,
+        "ocr": 0.2750922069999433,
+        "total": 0.30507030099988697
+      },
+      "regions": 14
+    },
+    {
+      "document_id": "development-invoice-01",
+      "category": "invoice",
+      "variant": "digital_pdf",
+      "sha256": "a6b70f30c41e9842749de0217e2d611a0c93c131ecc6c1b65c9fbc38500ca521",
+      "source": "digital",
+      "text": "فاتورة\nرقم الفاتورة :INV-101\nالتاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50\nالعملة :SAR",
+      "metrics": {
+        "raw": {
+          "char_errors": 11,
+          "characters": 104,
+          "word_errors": 10,
+          "words": 14
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 103,
+          "word_errors": 10,
+          "words": 14
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.002355719999968642,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.002958803999945303
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-invoice-01",
+      "category": "invoice",
+      "variant": "scanned_pdf",
+      "sha256": "00ab7faef9cde1fc0787da401cc5a86fffd5f2248c1867bd81d48165e7741fbf",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-101!‏\n‏التاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50\n\nSAR: ‏العملة‎\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 24,
+          "characters": 104,
+          "word_errors": 10,
+          "words": 14
+        },
+        "normalized": {
+          "char_errors": 22,
+          "characters": 103,
+          "word_errors": 10,
+          "words": 14
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.0002593629999410041,
+        "render": 0.06964602199991532,
+        "ocr": 0.27503943600004277,
+        "total": 0.3454308590000892
+      },
+      "regions": 14
+    },
+    {
+      "document_id": "development-invoice-02",
+      "category": "invoice",
+      "variant": "png",
+      "sha256": "c17a34324d505a30c517127d4ceaef2abef96182a21ecdbaac36d7cf3461add6",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-102:‏\n‏التاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 12,
+          "characters": 92,
+          "word_errors": 8,
+          "words": 12
+        },
+        "normalized": {
+          "char_errors": 11,
+          "characters": 91,
+          "word_errors": 8,
+          "words": 12
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.06495262799990087,
+        "ocr": 0.2686021649999475,
+        "total": 0.33355525100000705
+      },
+      "regions": 12
+    },
+    {
+      "document_id": "development-invoice-02",
+      "category": "invoice",
+      "variant": "jpeg",
+      "sha256": "57e1977c3a0cf5be209d2d40e35eeb26aa722c927f231886d82caa0fc7a4ad6a",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-102:‏\n‏التاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 12,
+          "characters": 92,
+          "word_errors": 8,
+          "words": 12
+        },
+        "normalized": {
+          "char_errors": 11,
+          "characters": 91,
+          "word_errors": 8,
+          "words": 12
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.03176384799985499,
+        "ocr": 0.27011705900008565,
+        "total": 0.3018813199998931
+      },
+      "regions": 12
+    },
+    {
+      "document_id": "development-invoice-02",
+      "category": "invoice",
+      "variant": "digital_pdf",
+      "sha256": "74113ffcc731b1e1dd5cfdc27f41d3daa9c0e42535924bec35030ceb6fc6287a",
+      "source": "digital",
+      "text": "فاتورة\nرقم الفاتورة :INV-102\nالتاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50",
+      "metrics": {
+        "raw": {
+          "char_errors": 9,
+          "characters": 92,
+          "word_errors": 8,
+          "words": 12
+        },
+        "normalized": {
+          "char_errors": 8,
+          "characters": 91,
+          "word_errors": 8,
+          "words": 12
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.0021774540000478737,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.002759401000048456
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-invoice-02",
+      "category": "invoice",
+      "variant": "scanned_pdf",
+      "sha256": "9b249b6393e9c415b3556ff4ce3b66b1a8862f6cbfc73f40d739b433e4c0a10e",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-102:‏\n‏التاريخ :2026-11-15\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 12,
+          "characters": 92,
+          "word_errors": 8,
+          "words": 12
+        },
+        "normalized": {
+          "char_errors": 11,
+          "characters": 91,
+          "word_errors": 8,
+          "words": 12
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.00022440999987338728,
+        "render": 0.07007181699987086,
+        "ocr": 0.2548609329999181,
+        "total": 0.32562278000000333
+      },
+      "regions": 12
+    },
+    {
+      "document_id": "development-invoice-03",
+      "category": "invoice",
+      "variant": "png",
+      "sha256": "5eff4db31c868097d3f18ae2dd26c34fc4d417c7eb5b21b7b9cbe63e39baa6ac",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-103:‏\n‏التاريخ :غير مقروء\n\nالمورد :متجر الورق الوهمي\nالإجمالي :152.50 / 125.50\nالعملة ‎SAR:‏\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 21,
+          "characters": 112,
+          "word_errors": 11,
+          "words": 17
+        },
+        "normalized": {
+          "char_errors": 19,
+          "characters": 111,
+          "word_errors": 11,
+          "words": 17
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.051211365999961345,
+        "ocr": 0.2864034909998736,
+        "total": 0.3376154850000148
+      },
+      "regions": 17
+    },
+    {
+      "document_id": "development-invoice-03",
+      "category": "invoice",
+      "variant": "jpeg",
+      "sha256": "2f67d50c9a6bff92e3e53521f541071696bfab373fc6a23de70a604bb744386b",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-103:‏\n‏التاريخ :غير مقروء\n\nالمورد :متجر الورق الوهمي\nالإجمالي :152.50 / 125.50\nالعملة ‎SAR:‏\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 21,
+          "characters": 112,
+          "word_errors": 11,
+          "words": 17
+        },
+        "normalized": {
+          "char_errors": 19,
+          "characters": 111,
+          "word_errors": 11,
+          "words": 17
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.019183338999937405,
+        "ocr": 0.28610078799988514,
+        "total": 0.3052848100001029
+      },
+      "regions": 17
+    },
+    {
+      "document_id": "development-invoice-03",
+      "category": "invoice",
+      "variant": "digital_pdf",
+      "sha256": "4eac40addf65a214e3f1f42ebbd9bd898c5627b12647a25d89234206252dfc3c",
+      "source": "digital",
+      "text": "فاتورة\nرقم الفاتورة :INV-103\nالتاريخ :غير مقروء\nالمورد :متجر الورق الوهمي\nالإجمالي :125.50 / 152.50\nالعملة :SAR",
+      "metrics": {
+        "raw": {
+          "char_errors": 11,
+          "characters": 112,
+          "word_errors": 10,
+          "words": 17
+        },
+        "normalized": {
+          "char_errors": 10,
+          "characters": 111,
+          "word_errors": 10,
+          "words": 17
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.0031226270000388467,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.003595364999910089
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-invoice-03",
+      "category": "invoice",
+      "variant": "scanned_pdf",
+      "sha256": "7cdef4df3f8ddcd3e33ed40dd56da8ddca8162e361a61a9ab772050d2ef8a6d1",
+      "source": "ocr",
+      "text": "فاتورة\n\nرقم الفاتورة ‎INV-103:‏\n‏التاريخ :غير مقروء\n\nالمورد :متجر الورق الوهمي\nالإجمالي :152.50 / 125.50\nالعملة ‎SAR:‏\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 21,
+          "characters": 112,
+          "word_errors": 11,
+          "words": 17
+        },
+        "normalized": {
+          "char_errors": 19,
+          "characters": 111,
+          "word_errors": 11,
+          "words": 17
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.00024022299999160168,
+        "render": 0.05262406600013492,
+        "ocr": 0.2871039510000628,
+        "total": 0.3404642559999047
+      },
+      "regions": 17
+    },
+    {
+      "document_id": "development-unknown-01",
+      "category": "unknown",
+      "variant": "png",
+      "sha256": "43fef20bed6a06253bb529b9846ff7060dd3988919fb5f22e2e60ddfcf8a5c27",
+      "source": "ocr",
+      "text": "وصف نبات اصطناعي 'أوراق خضراء وأزهار بيضاء.\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 2,
+          "characters": 44,
+          "word_errors": 2,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 43,
+          "word_errors": 2,
+          "words": 7
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.03570072299999083,
+        "ocr": 0.22507357600011346,
+        "total": 0.2607754159998876
+      },
+      "regions": 7
+    },
+    {
+      "document_id": "development-unknown-01",
+      "category": "unknown",
+      "variant": "jpeg",
+      "sha256": "d92a98f38679eb00f7f6c154c600406bcb8f8a991386a5dafd01397d9499cdab",
+      "source": "ocr",
+      "text": "وصف نبات اصطناعي 'أوراق خضراء وأزهار بيضاء.\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 2,
+          "characters": 44,
+          "word_errors": 2,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 43,
+          "word_errors": 2,
+          "words": 7
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.012957681999978377,
+        "ocr": 0.2097088640000493,
+        "total": 0.22266696899987437
+      },
+      "regions": 7
+    },
+    {
+      "document_id": "development-unknown-01",
+      "category": "unknown",
+      "variant": "digital_pdf",
+      "sha256": "07fc4740d682ebb6ad7fb8e72ab50494d5ba301091e985d00124658aa5b61430",
+      "source": "digital",
+      "text": "وصف نبات اصطناعي :أوراق خضراء وأزهار بيضاء.",
+      "metrics": {
+        "raw": {
+          "char_errors": 3,
+          "characters": 44,
+          "word_errors": 2,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 43,
+          "word_errors": 2,
+          "words": 7
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.0010400109999864071,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0016819079999095266
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-unknown-01",
+      "category": "unknown",
+      "variant": "scanned_pdf",
+      "sha256": "169a2aa86e56f212128a70492a721ee4ec9276e59add90cf83ff943b17493ce3",
+      "source": "ocr",
+      "text": "وصف نبات اصطناعي 'أوراق خضراء وأزهار بيضاء.\n",
+      "metrics": {
+        "raw": {
+          "char_errors": 2,
+          "characters": 44,
+          "word_errors": 2,
+          "words": 7
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 43,
+          "word_errors": 2,
+          "words": 7
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.00032023099993239157,
+        "render": 0.05725753100000475,
+        "ocr": 0.21114570000008825,
+        "total": 0.26913923100005377
+      },
+      "regions": 7
+    },
+    {
+      "document_id": "development-unknown-02",
+      "category": "unknown",
+      "variant": "png",
+      "sha256": "7e6b3328b2b8c32d7bf869b5c23a1394fce3a8abd3c74baaa5425050f1b2a69f",
+      "source": "ocr",
+      "text": "",
+      "metrics": {
+        "raw": {
+          "char_errors": 34,
+          "characters": 34,
+          "word_errors": 5,
+          "words": 5
+        },
+        "normalized": {
+          "char_errors": 33,
+          "characters": 33,
+          "word_errors": 5,
+          "words": 5
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.026147826999931567,
+        "ocr": 0.15117647300007775,
+        "total": 0.1773251929998878
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-unknown-02",
+      "category": "unknown",
+      "variant": "jpeg",
+      "sha256": "920ab568b92f018fd465b71646fae137513f1649780e442437bbe7cbfb1666e7",
+      "source": "ocr",
+      "text": "",
+      "metrics": {
+        "raw": {
+          "char_errors": 34,
+          "characters": 34,
+          "word_errors": 5,
+          "words": 5
+        },
+        "normalized": {
+          "char_errors": 33,
+          "characters": 33,
+          "word_errors": 5,
+          "words": 5
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "image_input"
+        ]
+      },
+      "timings_seconds": {
+        "reading": 0.01909049400001095,
+        "ocr": 0.20442167800001698,
+        "total": 0.22351286899993283
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-unknown-02",
+      "category": "unknown",
+      "variant": "digital_pdf",
+      "sha256": "9a3099b86082eb60546503af16a6335456ef6773f5983652ad93c669ed70d4e1",
+      "source": "digital",
+      "text": "وصفة تجريبية :اخلط الماء بالدقيق.",
+      "metrics": {
+        "raw": {
+          "char_errors": 3,
+          "characters": 34,
+          "word_errors": 2,
+          "words": 5
+        },
+        "normalized": {
+          "char_errors": 2,
+          "characters": 33,
+          "word_errors": 2,
+          "words": 5
+        }
+      },
+      "quality_reasons": {},
+      "timings_seconds": {
+        "digital_extraction": 0.0011455110000042623,
+        "render": 0.0,
+        "ocr": 0.0,
+        "total": 0.0019832010000300215
+      },
+      "regions": 0
+    },
+    {
+      "document_id": "development-unknown-02",
+      "category": "unknown",
+      "variant": "scanned_pdf",
+      "sha256": "0bd38bfbf1441985291c88c5565d3e0fb6261d30280342d492f7cb59fa48d615",
+      "source": "ocr",
+      "text": "",
+      "metrics": {
+        "raw": {
+          "char_errors": 34,
+          "characters": 34,
+          "word_errors": 5,
+          "words": 5
+        },
+        "normalized": {
+          "char_errors": 33,
+          "characters": 33,
+          "word_errors": 5,
+          "words": 5
+        }
+      },
+      "quality_reasons": {
+        "1": [
+          "too_short",
+          "sparse_text_over_image"
+        ]
+      },
+      "timings_seconds": {
+        "digital_extraction": 0.00024125200002345082,
+        "render": 0.062009510000052614,
+        "ocr": 0.16767350000009174,
+        "total": 0.2305457950001255
+      },
+      "regions": 0
+    }
+  ]
+}

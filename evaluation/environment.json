@@ -1,0 +1,10 @@
+{
+  "python": "3.12.14",
+  "platform": "Linux-6.18.57-x86_64-with-glibc2.41",
+  "machine": "x86_64",
+  "logical_cpus": 5,
+  "sqlite": "3.53.1",
+  "fts5": "create/insert/match passed",
+  "corpus_documents": 16,
+  "corpus_bytes": 2652
+}

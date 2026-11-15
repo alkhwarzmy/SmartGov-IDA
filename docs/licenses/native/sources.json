@@ -1,0 +1,52 @@
+[
+  {
+    "file": "Tesseract-5.5.1-LICENSE",
+    "source": "https://raw.githubusercontent.com/tesseract-ocr/tesseract/5.5.1/LICENSE",
+    "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+  },
+  {
+    "file": "Leptonica-1.85.0-LICENSE",
+    "source": "https://raw.githubusercontent.com/DanBloomberg/leptonica/1.85.0/leptonica-license.txt",
+    "sha256": "87829abb5bbb00b55a107365da89e9a33f86c4250169e5a1e5588505be7d5806"
+  },
+  {
+    "file": "libjpeg-turbo-1.5.3-LICENSE.md",
+    "source": "https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/1.5.3/LICENSE.md",
+    "sha256": "5c08657eda60b7946a913ee22ac73603335a468a6aa95204506a1586a8d677ee"
+  },
+  {
+    "file": "libjpeg-turbo-1.5.3-README.ijg",
+    "source": "https://raw.githubusercontent.com/libjpeg-turbo/libjpeg-turbo/1.5.3/README.ijg",
+    "sha256": "53a3e3c299e08856964f4c5986e242c3695837b73c64625092f70c774e8af5d2"
+  },
+  {
+    "file": "libpng-1.6.34-LICENSE",
+    "source": "https://raw.githubusercontent.com/pnggroup/libpng/v1.6.34/LICENSE",
+    "sha256": "a247c24f82bacf0403fe2f3d5550493a91cdb575fe7036b764bda8cacf3efd9c"
+  },
+  {
+    "file": "libwebp-1.0.0-COPYING",
+    "source": "https://raw.githubusercontent.com/webmproject/libwebp/v1.0.0/COPYING",
+    "sha256": "5aec868f669e384a22372a4e8a1a6cd7d44c64cd451f960ca69cc170d1e13acf"
+  },
+  {
+    "file": "zlib-1.2.11-README",
+    "source": "https://raw.githubusercontent.com/madler/zlib/v1.2.11/README",
+    "sha256": "7960b6b1cc63e619abb77acaea5427159605afee8c8b362664f4effc7d7f7d15"
+  },
+  {
+    "file": "libtiff-4.0.9-COPYRIGHT",
+    "source": "https://gitlab.com/libtiff/libtiff/-/raw/v4.0.9/COPYRIGHT",
+    "sha256": "fbd6fed7938541d2c809c0826225fc85e551fdbfa8732b10f0c87e0847acafd7"
+  },
+  {
+    "file": "JBIG-KIT-2.1-Debian-copyright",
+    "source": "Installed Debian libjbig0 copyright notice",
+    "sha256": "89ab20c324a191652e94598f2144a65442faed4f14f77bbd10516130ee20f05a"
+  },
+  {
+    "file": "GPL-2.txt",
+    "source": "Installed /usr/share/common-licenses/GPL-2",
+    "sha256": "edaef632cbb643e4e7a221717a6c441a4c1a7c918e6e4d56debc3d8739b233f6"
+  }
+]

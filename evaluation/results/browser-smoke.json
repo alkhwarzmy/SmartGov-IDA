@@ -1,0 +1,10 @@
+{
+  "upload": true,
+  "field_correction": true,
+  "confirmation": true,
+  "corrected_value_search": true,
+  "original_download_hash": true,
+  "mobile_no_horizontal_overflow": true,
+  "js_errors": [],
+  "external_app_requests": []
+}

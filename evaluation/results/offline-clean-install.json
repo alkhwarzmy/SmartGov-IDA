@@ -1,0 +1,19 @@
+{
+  "created_at": "2026-11-15T13:31:50.614625+00:00",
+  "clean_venv": "/workspace/smartgov-offline-validation-2/venv",
+  "installed_module": "/workspace/smartgov-offline-validation-2/venv/lib/python3.12/site-packages/archive_system/__init__.py",
+  "bundle": "/workspace/smartgov-delivery/SmartGov-IDA-MVP-linux-x86_64-py312",
+  "install_network_blocked": true,
+  "install_blocked_ip_socket_creations": 2,
+  "install_outbound_connection_calls": 0,
+  "external_python_attempts": 0,
+  "native_external_addresses": [],
+  "local_http_cycle": true,
+  "digital_review_search_download": true,
+  "image_ocr_transcription_and_field_review": true,
+  "failed_original_retained": true,
+  "local_preview": true,
+  "consistent_backup_and_restore": true,
+  "restored_search_and_reviews_equal": true,
+  "limitations": "Linux x86_64 / Python 3.12 only; Python and OS prerequisites preinstalled. HTTP loopback is permitted; external Python connections blocked, native trace checked. Separate API tests block all socket creation."
+}

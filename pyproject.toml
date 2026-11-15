@@ -1,0 +1,38 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "smartgov-archive"
+version = "0.2.0"
+description = "Offline Arabic document archive with review, search, and immutable originals"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "pydantic==2.12.4",
+    "pypdf==6.4.1",
+    "pypdfium2==5.1.0",
+    "Pillow==12.0.0",
+    "tesserocr==2.9.1",
+    "psutil==7.1.3",
+    "fastapi==0.121.3",
+    "uvicorn==0.38.0",
+    "python-multipart==0.0.20",
+]
+
+[project.optional-dependencies]
+test = ["pytest==8.4.2", "httpx==0.28.1"]
+fixtures = ["fpdf2==2.8.5", "uharfbuzz==0.52.0"]
+comparison = ["paddleocr==3.3.2", "paddlex==3.3.13", "paddlepaddle==3.2.2"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src", "."]
+testpaths = ["tests"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[project.scripts]
+smartgov-archive = "archive_system.cli:main"
+
+[tool.setuptools.package-data]
+archive_system = ["ui/static/*.html", "ui/static/*.css", "ui/static/*.js"]

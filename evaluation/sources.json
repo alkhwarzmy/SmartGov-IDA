@@ -1,0 +1,24 @@
+[
+  {
+    "id": "synthetic-v1",
+    "source": "Original fictional text authored for this repository; no downloaded documents",
+    "license": "CC0-1.0",
+    "license_version": "1.0",
+    "attribution": "Not required; retain this provenance record",
+    "redistribution": "Permitted under CC0-1.0",
+    "authorization": "Synthetic; no personal or government records",
+    "scope": "evaluation/data/*.txt and evaluation/ground_truth.json",
+    "limitations": "Text-only pilot; not evidence of real-world OCR accuracy"
+  },
+  {
+    "id": "synthetic-rendered-v1",
+    "source": "scripts/generate_reading_corpus.py from frozen synthetic-v1 references",
+    "license": "CC0-1.0 for authored content; embedded font software retains its own license",
+    "license_version": "1.0",
+    "attribution": "Retain Noto OFL-1.1 and DejaVu notices when redistributing embedded font software",
+    "redistribution": "Preserve relevant font license notices",
+    "authorization": "Synthetic; no personal or government documents",
+    "scope": "External generated PNG/JPEG/digital PDF/scanned PDF; hashes in reading_manifest.json",
+    "limitations": "Derived variants are not independent documents; share the source split and family"
+  }
+]
