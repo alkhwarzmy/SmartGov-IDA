@@ -1,0 +1,2187 @@
+{
+  "source": "OpenITI/OCR_GS_Data",
+  "revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+  "license": "CC-BY-NC-SA-4.0",
+  "noncommercial_only": true,
+  "counts": {
+    "train": 60,
+    "validation": 30,
+    "test": 30
+  },
+  "bytes": 545845,
+  "source_groups": {
+    "train": [
+      "book_IbnAthir.Kamil",
+      "book_IbnFaqihHamadhani.Buldan"
+    ],
+    "validation": [
+      "book_IbnQutayba.Adab"
+    ],
+    "test": [
+      "book_Jahiz.Hayawan"
+    ]
+  },
+  "manifest_sha256": "ea0f6606b0843d58b7bbb6251f57bb4cd9265e3edbbfafc5b1fcc35bc7632e41",
+  "records": [
+    {
+      "id": "book_IbnAthir.Kamil__000103",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000103.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000103.gt.txt",
+      "image_sha256": "67049e0ae3f742d00c79a84f6813cc7aa7e4adfe6885c17107a4fa2967fe83c5",
+      "text_sha256": "0596fa23e9f31f0ff16eff67e78ccb73358c25ec9cdba18d6a1f0690bf762aea",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000103.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000103.gt.txt",
+      "bytes": 3984,
+      "dimensions": [
+        1458,
+        73
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000009",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000009.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000009.gt.txt",
+      "image_sha256": "6e444ddd819bf344747c8c1401a9175f12aea7779dbef12add9811080b850836",
+      "text_sha256": "7b333c11629d4012d6becacd77d8cd9e056277eaf0b6b0d71f9ca0b593811793",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000009.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000009.gt.txt",
+      "bytes": 4446,
+      "dimensions": [
+        1585,
+        78
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000076",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000076.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000076.gt.txt",
+      "image_sha256": "d719fb9d2026b09485c58b9d03f9245026f5b95a2383292de29baa718095b05f",
+      "text_sha256": "8f7055460f825de4eab41ad13b2d731b1624794b9b2f2279bfa6bafc020ebe5e",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000076.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000076.gt.txt",
+      "bytes": 4689,
+      "dimensions": [
+        1591,
+        87
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000165",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000165.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000165.gt.txt",
+      "image_sha256": "ebc6e03529bd995aa4ccb47b17ede9cebd1a8de222fe807438f546d05a7fad9a",
+      "text_sha256": "92e5b96c3810af2613e6421661a95930579532bc49452ca0da1d41a5705e68e5",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000165.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000165.gt.txt",
+      "bytes": 4303,
+      "dimensions": [
+        1485,
+        85
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000044",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000044.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000044.gt.txt",
+      "image_sha256": "7bbee9f56bc52033f0f0aec909998dbbb522c63e0237f2620ac77375eb032d14",
+      "text_sha256": "8227243adfd15273856da414c7e211a21953dd468e5e3fdfba762274e5fa321e",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000044.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000044.gt.txt",
+      "bytes": 4406,
+      "dimensions": [
+        1586,
+        76
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000066",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000066.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000066.gt.txt",
+      "image_sha256": "fe42ef1023f9b6e3f087697dc9d15df1382c6ddfb47607799106c1f6cdf516e6",
+      "text_sha256": "224ab4b1e795795cdd2f280ca7e3912758e857835d2642833efcc2910c393b7a",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000066.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000066.gt.txt",
+      "bytes": 4719,
+      "dimensions": [
+        1592,
+        81
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000292",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000292.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000292.gt.txt",
+      "image_sha256": "08c3db5a1778fbbbaee1738299b4614574b0135abea46e0c0cb45897c493b3eb",
+      "text_sha256": "6ac57436aba33c84609596b6c8c66e6fb538b8742edc84ad3996800f2e1eb66a",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000292.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000292.gt.txt",
+      "bytes": 4010,
+      "dimensions": [
+        1407,
+        83
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000199",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000199.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000199.gt.txt",
+      "image_sha256": "ad431db6e9339e27034031e3f7ac58fc368d4153a28d8555d84f9d96a0ea09e5",
+      "text_sha256": "4eac5abba74bf56651459b16fbb21e70e63c260fbe2b3bb64b2432fa34ec7971",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000199.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000199.gt.txt",
+      "bytes": 4309,
+      "dimensions": [
+        1591,
+        77
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000092",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000092.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000092.gt.txt",
+      "image_sha256": "4eb6c9d83362bef8347d21f9e7c5b04ec2c9226186987bdfb28e586e209684f5",
+      "text_sha256": "a5bd891888b20c8e30772596e21b19dac4a2fd180fa75d35073d30547a123891",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000092.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000092.gt.txt",
+      "bytes": 4190,
+      "dimensions": [
+        1580,
+        82
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000179",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000179.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000179.gt.txt",
+      "image_sha256": "60cd7948edb070416c8048994bf652227188397bee99b16685c7ef6e47e1128d",
+      "text_sha256": "e5dc33e15c28e8a423966171422b2227970b8daaa317419e85aa4f6e4b6c7991",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000179.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000179.gt.txt",
+      "bytes": 4546,
+      "dimensions": [
+        1601,
+        88
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000330",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000330.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000330.gt.txt",
+      "image_sha256": "df1e70fd8d4ed19baf7a596059a696b6c4d921a5e49e34cf96968b47b4e19653",
+      "text_sha256": "a3fb9cea40256159d440d3e6cc70f9c24e28fe398aaaa31e5bd063bd98c14777",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000330.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000330.gt.txt",
+      "bytes": 4745,
+      "dimensions": [
+        1594,
+        82
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000131",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000131.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000131.gt.txt",
+      "image_sha256": "ec8169e3ec33bedad961a18f7f025cb09d621af2cab1ae2d1275cad9bb837deb",
+      "text_sha256": "8caac9d9d38bc46b046bfc8a71d25147bce59ca110513b9d78d9962206580dd9",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000131.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000131.gt.txt",
+      "bytes": 1498,
+      "dimensions": [
+        386,
+        79
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000331",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000331.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000331.gt.txt",
+      "image_sha256": "ce593f6f7829bafd0d66b6eda2ff2cb7e6de4a65c7a9493aa40e78c0ebd31e8d",
+      "text_sha256": "b680d7cd98c083017c36fd6f3e41176d146c3b1fb7128fca78fce1bf7ffe4c2b",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000331.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000331.gt.txt",
+      "bytes": 4552,
+      "dimensions": [
+        1592,
+        83
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000101",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000101.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000101.gt.txt",
+      "image_sha256": "cd15dc31f013d6f4986d2d5cb0dda2e7ad1edc9236ba1856311c027327cffdd8",
+      "text_sha256": "550e955275353e641efb967808c44a19419fd5590748d95e2f12d97bfcb25e85",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000101.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000101.gt.txt",
+      "bytes": 4302,
+      "dimensions": [
+        1587,
+        80
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000084",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000084.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000084.gt.txt",
+      "image_sha256": "016837ea744c28c14098706fccf93722a1bb0c5d5c27f9624516627bf11480fa",
+      "text_sha256": "0e1777afc20b16264cd54a8bd84b8cb2db747f2a522aebde7396693fe878fe7b",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000084.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000084.gt.txt",
+      "bytes": 4486,
+      "dimensions": [
+        1589,
+        80
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000051",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000051.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000051.gt.txt",
+      "image_sha256": "c3ba68342b3599ad176e42b88e1f8b1ec4cb7d27ebb73adedea1f03cd98d6da8",
+      "text_sha256": "d36c15b09d89af866246d8784b148665c3b01611eb1ecf67599e984f45dae5d6",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000051.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000051.gt.txt",
+      "bytes": 4236,
+      "dimensions": [
+        1596,
+        79
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000074",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000074.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000074.gt.txt",
+      "image_sha256": "7dcecae935ade2548f2b5c278e6d304d298032bb4223cf7b39d8ccdd3640fb39",
+      "text_sha256": "cdb76e4b851614f21bb73abf700ba56dc2aac30951193377cb0d6aea47f6c01e",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000074.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000074.gt.txt",
+      "bytes": 1293,
+      "dimensions": [
+        431,
+        60
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000259",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000259.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000259.gt.txt",
+      "image_sha256": "fb858e08a8b42385e7328b80b9452f3767dcac44abf4b31944852ad860b07800",
+      "text_sha256": "054f619ef0702e405a7fefc36c2f99bd116bb65abe62cb6a44402f697a5a9720",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000259.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000259.gt.txt",
+      "bytes": 2982,
+      "dimensions": [
+        939,
+        70
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000245",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000245.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000245.gt.txt",
+      "image_sha256": "cb571d7ea112e720258fa474ed5202f460195f27722d817905de3a9ee1b9cf24",
+      "text_sha256": "035ac6e4f61be39e568238ecc7c3c6ccddb0ae5a65d6013b411f236a8e77f9a7",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000245.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000245.gt.txt",
+      "bytes": 894,
+      "dimensions": [
+        235,
+        68
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000291",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000291.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000291.gt.txt",
+      "image_sha256": "1417d68e754c9057ace75f9ce7c66d36798cbbb4d8b0b7a4806620631f8912ea",
+      "text_sha256": "975aff0b01e039656e515e250cb2925f4e4ddc7736b170509b0fc85e78d4b928",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000291.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000291.gt.txt",
+      "bytes": 4360,
+      "dimensions": [
+        1592,
+        75
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000273",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000273.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000273.gt.txt",
+      "image_sha256": "0e35b4ac390f5f487da7e4f209e179171ff6d46e3efbbb88ab4a70aad07fb034",
+      "text_sha256": "9441fae7fd1203e514ce646f6b6e49b4fca660f02ce70bf1b3b9d1bc467040fc",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000273.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000273.gt.txt",
+      "bytes": 4143,
+      "dimensions": [
+        1593,
+        66
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000203",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000203.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000203.gt.txt",
+      "image_sha256": "cee3f60c8ada6a2a8cd54ced70f158e07b4deb37870d41aa20f34643249c87eb",
+      "text_sha256": "428b04e936940bde7d77a37c54ea4b25620a65909276215a35b768d9981002bb",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000203.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000203.gt.txt",
+      "bytes": 3093,
+      "dimensions": [
+        1184,
+        62
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000143",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000143.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000143.gt.txt",
+      "image_sha256": "d282372d04670f72499630fa6ec7c0d18a5aac84ef2f9dfe09a0d81795152dda",
+      "text_sha256": "8b79f3f0d88fe78112c24f187b7e042a345d677df82b3190dfaf1eb9ab623bd6",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000143.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000143.gt.txt",
+      "bytes": 4104,
+      "dimensions": [
+        1583,
+        70
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000037",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000037.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000037.gt.txt",
+      "image_sha256": "abe84ff7f57ab7609dedc5892f647e7042c79fcc2ae27946b8f5f6a13d1d71fc",
+      "text_sha256": "e3029d5ab344b1b756f990390ebd18b5974d4a44739d48c62159ea7b2e286852",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000037.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000037.gt.txt",
+      "bytes": 2606,
+      "dimensions": [
+        770,
+        83
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000213",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000213.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000213.gt.txt",
+      "image_sha256": "0bc71c52ad60c1d75145b815fff6754714f4fa4ae9675517bfbc2d966fffeebd",
+      "text_sha256": "0b8cf9c7888c5928243f795e4066a4b4c05815fe9c1070cf5c4668d703f58a7a",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000213.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000213.gt.txt",
+      "bytes": 2371,
+      "dimensions": [
+        826,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000286",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000286.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000286.gt.txt",
+      "image_sha256": "61d646e87ce2f0b9153c607f49030002ee182352ffdffe5d42ff9f26f78cfeb1",
+      "text_sha256": "1da2458ffcfdd3ea23115aaadd2cf37747f5278bba6b9395e313f779dc227a95",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000286.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000286.gt.txt",
+      "bytes": 4536,
+      "dimensions": [
+        1591,
+        83
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000157",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000157.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000157.gt.txt",
+      "image_sha256": "6f2cff4bb77d080015dc7aea9c1eaa2dc0ccfb2880d24f3426063522d7078d43",
+      "text_sha256": "465035bcac71b15e8e3bff62f2d91f10642fbfddcd746f046a195c8f7c2260b6",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000157.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000157.gt.txt",
+      "bytes": 4351,
+      "dimensions": [
+        1594,
+        81
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000116",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000116.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000116.gt.txt",
+      "image_sha256": "223e0da3a74b65e27de42ea4cbcb4014625b048e517425e2d8ffff9952bfcf8b",
+      "text_sha256": "185ca87ab3fc0dfa965fb865b4a2940b1334b03d8aae4cc46b9e203456def22c",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000116.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000116.gt.txt",
+      "bytes": 1063,
+      "dimensions": [
+        308,
+        56
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000053",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000053.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000053.gt.txt",
+      "image_sha256": "54fd55517e02167caaed61457be7a6041ef39e867b05d91e14687a75d8972e9e",
+      "text_sha256": "912b0fb918405cf909007d10a400e62c9fb14fd4dfee8648425d8e60f29a59f0",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000053.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000053.gt.txt",
+      "bytes": 4344,
+      "dimensions": [
+        1589,
+        80
+      ]
+    },
+    {
+      "id": "book_IbnAthir.Kamil__000033",
+      "split": "train",
+      "source_group": "book_IbnAthir.Kamil",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnAthir.Kamil__000033.png",
+      "ground_truth": "train/book_IbnAthir.Kamil__000033.gt.txt",
+      "image_sha256": "a5a2b8e0b60daa5da51482ac665b33f04325da7adbe7f30e7148d3d6feaa6c88",
+      "text_sha256": "682bbb5a69f5abde8bd8fa9db761eee49d27480b34890a4208a8e29647f2541a",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000033.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnAthir.Kamil/7_final/000033.gt.txt",
+      "bytes": 4688,
+      "dimensions": [
+        1588,
+        79
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000104",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000104.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000104.gt.txt",
+      "image_sha256": "89ef42528274a8174f68f045ab4414472df6784d00b271ab0b7bb8794a84dfa9",
+      "text_sha256": "727225aa5131270355305cc5fc3f3ad74bc8d14146ce316dcefe3b1e03b16e43",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000104.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000104.gt.txt",
+      "bytes": 8863,
+      "dimensions": [
+        2959,
+        115
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000008",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000008.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000008.gt.txt",
+      "image_sha256": "70589d50702d044ad78af9bd9c197f63fe15f1deb6e60019ee0e12b960c04876",
+      "text_sha256": "69e3a4336a74c02ee757ea59d6348d277c2a611442f0dfceac719563bd695063",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000008.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000008.gt.txt",
+      "bytes": 12396,
+      "dimensions": [
+        3015,
+        183
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000077",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000077.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000077.gt.txt",
+      "image_sha256": "5ff7221fee6fe66c741b8e99e2cc91687c00a99a3e2bf8cc28aadec37f44f0bf",
+      "text_sha256": "466e34c68b520d1644b49dc2151ad448285c887e54913e3ad23eb59978dbf612",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000077.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000077.gt.txt",
+      "bytes": 10047,
+      "dimensions": [
+        2988,
+        181
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000168",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000168.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000168.gt.txt",
+      "image_sha256": "d92cd45a041534a072cc9ad2ba0a12fb905591991ef9f89b1e2c77d2b9f6a00a",
+      "text_sha256": "65d5d1bca29c52b375ca545a0cc36fb22c43973ac16bc0d87ee13525b8b39f35",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000168.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000168.gt.txt",
+      "bytes": 8599,
+      "dimensions": [
+        2749,
+        174
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000045",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000045.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000045.gt.txt",
+      "image_sha256": "8d971a2ff9ccb6e38eaa8c8822807e76aeba7adc18be7ecd0b5fbfc5f89b5288",
+      "text_sha256": "3f5cba523e9a33e767a805b684c21ac352709cb35b31404b5ef8e8a641f8eef5",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000045.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000045.gt.txt",
+      "bytes": 10096,
+      "dimensions": [
+        3029,
+        179
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000067",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000067.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000067.gt.txt",
+      "image_sha256": "335cfbd8151b6a2590fd3b2f5de17dbaa0b6cbb6eb57a4f404f5c4141fa133a6",
+      "text_sha256": "b99216699da61bc8357d7d4b86954b772b31c32ca36577dce27428289e6d6ae1",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000067.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000067.gt.txt",
+      "bytes": 9883,
+      "dimensions": [
+        2964,
+        152
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000295",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000295.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000295.gt.txt",
+      "image_sha256": "909ce5621cc3730ce79e3c4ed2548e75b84d809cb3a8261957a98b8349972844",
+      "text_sha256": "64deeb019b9859f3a8c28119388fcc70ede733c51d2bca331305249e47b0d57e",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000295.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000295.gt.txt",
+      "bytes": 7513,
+      "dimensions": [
+        2470,
+        130
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000202",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000202.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000202.gt.txt",
+      "image_sha256": "8646b4e445f3519114fcd2fd91814acdefb7de1f49b9986da59e8a31ddfa980a",
+      "text_sha256": "a9456fa57da9d423b28eae7c85ac3250c90d3792a2cd8b256b3433c9be4d456a",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000202.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000202.gt.txt",
+      "bytes": 1909,
+      "dimensions": [
+        465,
+        136
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000093",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000093.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000093.gt.txt",
+      "image_sha256": "c81b1fd1cfe637d0204db28468a16b36a4d9dcc72ca2485738bb4d54437d8537",
+      "text_sha256": "1d876d08a026fac0a865baaf607a1539a61f754a4ce27e88dbabaf5a53650eac",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000093.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000093.gt.txt",
+      "bytes": 8957,
+      "dimensions": [
+        2990,
+        144
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000182",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000182.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000182.gt.txt",
+      "image_sha256": "46b1452062257eed27ffb294ee48c5db9a5b5515f993c08746d1383cda5879f9",
+      "text_sha256": "bbe12a26d76667eac5a8d7d33f3695876dda6a73700157ac82e6d053450ab252",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000182.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000182.gt.txt",
+      "bytes": 8668,
+      "dimensions": [
+        2962,
+        135
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000334",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000334.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000334.gt.txt",
+      "image_sha256": "47fa150eb1da4a4c47cced702ddd27fdb46cbe6f65449158ee23bc7471c2cb01",
+      "text_sha256": "7f11a567ec1445ee3587df3d464ea3eb8e67b8b9052ca07251db0f26fa17b5c2",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000334.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000334.gt.txt",
+      "bytes": 8703,
+      "dimensions": [
+        2972,
+        111
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000132",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000132.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000132.gt.txt",
+      "image_sha256": "7ba43edafe2510f7b154d112a9491dde25bee0fb2419f0e62efdcafd690c5e24",
+      "text_sha256": "4b9f066172dd6246fb4d02fb18d75c7a2fbc2b9a98d3b148a4f1251a57d87e07",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000132.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000132.gt.txt",
+      "bytes": 9569,
+      "dimensions": [
+        2754,
+        157
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000335",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000335.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000335.gt.txt",
+      "image_sha256": "65f08a7f3c628186b7961a80d4d93c5eeef1113fd6012fdfdc83bbb07dea721d",
+      "text_sha256": "8855f2065ca7047dca1e3784e31cbfaa92a6da4e31a2c193830dca6030fe0cfc",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000335.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000335.gt.txt",
+      "bytes": 4126,
+      "dimensions": [
+        1283,
+        104
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000102",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000102.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000102.gt.txt",
+      "image_sha256": "826f6a7184dcc63be65243a1974d13e7b4c7fd35b5d980c7693735ac3d02bf92",
+      "text_sha256": "ea9a81bc8e8bc9f6d5e1c7937cf449ae6fa22dd1084e1b276c30e5b8c35f00a5",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000102.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000102.gt.txt",
+      "bytes": 9013,
+      "dimensions": [
+        2978,
+        133
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000085",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000085.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000085.gt.txt",
+      "image_sha256": "73308b65d01306c006be6e7312f1ef93d4eff3a7560800950f29bd0d6f238484",
+      "text_sha256": "0ad6f0759a7add80811cbdb6b60c3a75405535cfd75054994e71ade03e620bdf",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000085.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000085.gt.txt",
+      "bytes": 9363,
+      "dimensions": [
+        2988,
+        153
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000052",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000052.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000052.gt.txt",
+      "image_sha256": "c6e06bb981cf6d3b56e96b3763a10110fc6115c1587f159c99db7f34e91f3eb1",
+      "text_sha256": "aafcc31e486a6f83f04b69ac9fb5df7f5b9c595dc1f8e06da426b24eb8ef3c54",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000052.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000052.gt.txt",
+      "bytes": 10388,
+      "dimensions": [
+        2977,
+        187
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000075",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000075.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000075.gt.txt",
+      "image_sha256": "e3a2d23ae4820d70336c9f41c4085b40cf55200f3597faa3655b269bbb43dc90",
+      "text_sha256": "d69c291d9147550bc29b13cebc541c4a15344ef25e18b1ea3e9e786c0798e857",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000075.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000075.gt.txt",
+      "bytes": 9804,
+      "dimensions": [
+        2991,
+        144
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000262",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000262.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000262.gt.txt",
+      "image_sha256": "b9a2461812bf0432158a42dfa816379c159e3797769a6e71c0ddf19c148449a8",
+      "text_sha256": "b5f9673d177ededd8ceb1d74ab19672074836f1901b7a301e7deaabf411d3fdc",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000262.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000262.gt.txt",
+      "bytes": 9426,
+      "dimensions": [
+        2990,
+        173
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000248",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000248.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000248.gt.txt",
+      "image_sha256": "6dfb08b7c43089adbbf15e9bf320fd6f5978212caf7420e7fd530abbccb21117",
+      "text_sha256": "612111a352a571cbed3927ec6f74948849bcc9fe8489bf4f0d6235afdc0a4ad7",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000248.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000248.gt.txt",
+      "bytes": 548,
+      "dimensions": [
+        142,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000294",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000294.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000294.gt.txt",
+      "image_sha256": "c83ea3ea857ad308fd7329d9c133242624bb47d777ea01bf2a1f3cc4de0861a4",
+      "text_sha256": "d121baf06c01904896437c48c0cddb3bca7d7bed6df93e3ed03a94b1bc64942e",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000294.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000294.gt.txt",
+      "bytes": 9177,
+      "dimensions": [
+        2890,
+        142
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000276",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000276.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000276.gt.txt",
+      "image_sha256": "8643e52d4302c996b51630bb9db04433d96a817b78bb4fb0d2caeadf18e39f3b",
+      "text_sha256": "75e731ecc35f17e0cf951a9d91ddd0873bebab63afcd22aa7c265dd17f473755",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000276.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000276.gt.txt",
+      "bytes": 7060,
+      "dimensions": [
+        2186,
+        145
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000206",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000206.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000206.gt.txt",
+      "image_sha256": "6c1902803c13bb71b5ac95f4da32d7ea2a16aaee021bebf132fbfb3d6475b6bc",
+      "text_sha256": "0fe4c0f50256862e8f68a1a9027ffb4a63c7f4f55117bf98fa7721a5552efae9",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000206.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000206.gt.txt",
+      "bytes": 9333,
+      "dimensions": [
+        2985,
+        133
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000146",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000146.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000146.gt.txt",
+      "image_sha256": "4106fb4516dd7d8af586c4a76ec26e2b1b4793bcc6fec376a65e6af56127edc8",
+      "text_sha256": "7cf80c3619374bdd4dad66136bda4a98dcf58b9d0bb7b573392d420bdcf45def",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000146.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000146.gt.txt",
+      "bytes": 9284,
+      "dimensions": [
+        2979,
+        178
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000038",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000038.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000038.gt.txt",
+      "image_sha256": "494a682890921ac23007cebe219d1a94b87748123eb50535c77dca6543a0349d",
+      "text_sha256": "291e7ea8d3d58a3296e9511dd59204fac90d816b3fffc1b20765872cdfdae292",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000038.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000038.gt.txt",
+      "bytes": 8317,
+      "dimensions": [
+        2742,
+        175
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000216",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000216.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000216.gt.txt",
+      "image_sha256": "10860e68980ddafc6bccc9031cf5c2b5108e9777ad9eb9bfdfab0de439265f9b",
+      "text_sha256": "b9274b745545968eb7ac69f002a76fa5fb1988b6b5294e004c6496483c891828",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000216.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000216.gt.txt",
+      "bytes": 9301,
+      "dimensions": [
+        2971,
+        161
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000289",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000289.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000289.gt.txt",
+      "image_sha256": "cc4263b6fc1cb20bf7c9aae7579e2e1c89ef756293e45e8beb319128844ff3d9",
+      "text_sha256": "6cc1d288cce8a59ec0405cd34296ba9b06d170bb92d35b30346929c174541649",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000289.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000289.gt.txt",
+      "bytes": 2809,
+      "dimensions": [
+        766,
+        130
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000160",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000160.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000160.gt.txt",
+      "image_sha256": "bd0d1dadd12092788ad54f24ac4faac2eaf6d794f3159e89949b25fc3dce7b16",
+      "text_sha256": "a73b320dc0d3a57c03f897eb28ca91e623c5ee635db59476ba3178c90b94019f",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000160.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000160.gt.txt",
+      "bytes": 605,
+      "dimensions": [
+        149,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000117",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000117.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000117.gt.txt",
+      "image_sha256": "01066164bec7d434fff69c69db1a48996748d4514fbcd5d8f826c17f27b775f0",
+      "text_sha256": "360c3bd0de77e16c5fb5927151c8ada964161e97bb60d79a0cee545f66464fe7",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000117.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000117.gt.txt",
+      "bytes": 8925,
+      "dimensions": [
+        2967,
+        127
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000054",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000054.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000054.gt.txt",
+      "image_sha256": "6857cb8de1cd7d5f534ec13e251174b4595b06665c4a972f56d730c3a85bce5d",
+      "text_sha256": "fc953d43c8a15ed7d595f0d022cfd46ec5413706cf5c109cbc61d44067f705ea",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000054.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000054.gt.txt",
+      "bytes": 9651,
+      "dimensions": [
+        2977,
+        165
+      ]
+    },
+    {
+      "id": "book_IbnFaqihHamadhani.Buldan__a_000034",
+      "split": "train",
+      "source_group": "book_IbnFaqihHamadhani.Buldan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "train/book_IbnFaqihHamadhani.Buldan__a_000034.png",
+      "ground_truth": "train/book_IbnFaqihHamadhani.Buldan__a_000034.gt.txt",
+      "image_sha256": "498ec94cf90fee57ca7f06ba97f72fec253b2b50e5a63661014cf3d41c7c9ab8",
+      "text_sha256": "5c7e5058f732e596becba64d007be97f6fc9855a98c9120025084b29505c4021",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000034.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnFaqihHamadhani.Buldan/7_final/a_000034.gt.txt",
+      "bytes": 9357,
+      "dimensions": [
+        2980,
+        174
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000102",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000102.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000102.gt.txt",
+      "image_sha256": "650e898fb897df082119828135f2fe2f917464e4f3c904510689c0e46b0e1f30",
+      "text_sha256": "1ba60b1831db3c948f0904d38f5398cd2488993f0b1d144167a8caa25d347d00",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000102.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000102.gt.txt",
+      "bytes": 872,
+      "dimensions": [
+        258,
+        65
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000008",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000008.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000008.gt.txt",
+      "image_sha256": "f501526728ff63631ce1a4f528d9117d5c9843b35a7549ee2a437adb9fee453d",
+      "text_sha256": "5f8b501f216aa777c132494a1b308d2ff900624a7539d72fe049db7622eb0337",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000008.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000008.gt.txt",
+      "bytes": 3400,
+      "dimensions": [
+        1194,
+        94
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000075",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000075.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000075.gt.txt",
+      "image_sha256": "812cea5acd7060feb57002e972d954ab872353a6c452d1127952e8513ff9c7a1",
+      "text_sha256": "107936c01748bda7a1f4bc0c41e58070418ecf0def492fc5de0ea082ccbede80",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000075.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000075.gt.txt",
+      "bytes": 3380,
+      "dimensions": [
+        1196,
+        63
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000165",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000165.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000165.gt.txt",
+      "image_sha256": "ca11d16b2ac4c5fb57eae1a5f90ec9e91b731316912677a4441a63c0e102fd15",
+      "text_sha256": "cee9e28712904142e4dee0dccca24e66061f18f531a21ac4452d6bad6a9d35f6",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000165.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000165.gt.txt",
+      "bytes": 3677,
+      "dimensions": [
+        1321,
+        76
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000043",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000043.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000043.gt.txt",
+      "image_sha256": "ec4a60fe8f2f044a5e3fd186a849914153b2566684efd1381f83aa2f2cddbb5e",
+      "text_sha256": "55e8c286673320eb5ee2195f95c701d7c51f0ab6040ccf0d659ec9f4ee220229",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000043.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000043.gt.txt",
+      "bytes": 3537,
+      "dimensions": [
+        1196,
+        82
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000065",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000065.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000065.gt.txt",
+      "image_sha256": "d183bf0a61a85ef99542b9e7b4119d266bb36b501ccdf62dc52548ea1052981d",
+      "text_sha256": "398de7a31fb3685c49d142666a8c3bdc8ca78b4e2d7dce61efba3f22081b7d8a",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000065.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000065.gt.txt",
+      "bytes": 3493,
+      "dimensions": [
+        1305,
+        64
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000298",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000298.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000298.gt.txt",
+      "image_sha256": "e4aebbc6188e7d94410b8589fba073325f40aa9b7816a60849e2da38e0a349fe",
+      "text_sha256": "98b6d54c76e11b2db6083ca654b7508613a06aa0743b9891069e501a440e03ed",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000298.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000298.gt.txt",
+      "bytes": 4219,
+      "dimensions": [
+        1320,
+        84
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000200",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000200.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000200.gt.txt",
+      "image_sha256": "2dd8993e8a4e13afa36db4ff32a267c50ecf63251f922b754cda94ecc45c822b",
+      "text_sha256": "5a5dfa28fa44cb9e5a6f96cd9f11a1d854d9e72b7f92e72ebe4cc71f31844309",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000200.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000200.gt.txt",
+      "bytes": 3642,
+      "dimensions": [
+        1314,
+        98
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000091",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000091.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000091.gt.txt",
+      "image_sha256": "4f3344423e08ecc66f0fab12f14e448b1d76cc197927d3fea5ebb0762a91dfce",
+      "text_sha256": "d24da8ac3c859010f3348a58d59f1c4c7d6b97868388c296fd36d05d80001f09",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000091.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000091.gt.txt",
+      "bytes": 3581,
+      "dimensions": [
+        1202,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000180",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000180.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000180.gt.txt",
+      "image_sha256": "01c0484dc42b2828d5272d132ad9a12d0a4835dd73546f3f14dd79c0b1b39b8f",
+      "text_sha256": "88ea52920bd3b138c0841f9bd534bb87ec09b6e534034b9ccc70740879c22942",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000180.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000180.gt.txt",
+      "bytes": 3620,
+      "dimensions": [
+        1201,
+        87
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000336",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000336.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000336.gt.txt",
+      "image_sha256": "f4847cdefe573aa39bbac05812b387327ce08173f8d2df8b663333203b691ea0",
+      "text_sha256": "7a0b33e27bc00b511dffeb65120ca187215e1bce605dafdb428df79e7f5e68bd",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000336.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000336.gt.txt",
+      "bytes": 3090,
+      "dimensions": [
+        1203,
+        61
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000130",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000130.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000130.gt.txt",
+      "image_sha256": "fc6ad738f692322a1a7313f89b1a3d5a0947a4dd375cd8303b1a306cc61de444",
+      "text_sha256": "ea19fa298cb932eec12a558798bf70e0ed683c391ea9f642cf29589ce0e05ce9",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000130.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000130.gt.txt",
+      "bytes": 3548,
+      "dimensions": [
+        1316,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000337",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000337.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000337.gt.txt",
+      "image_sha256": "0ee852cfecc29c41ec68fe135a92646d54f9bf59f59fcc33bee2709cc9c6f88c",
+      "text_sha256": "08a14ed34f9ceeda975b2e5706c7427b982fc1499949624c5f27116f40e73a97",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000337.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000337.gt.txt",
+      "bytes": 3701,
+      "dimensions": [
+        1314,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000100",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000100.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000100.gt.txt",
+      "image_sha256": "d3ca08a4aabb1b55ebddbd9c43b98da0a918032d96c1a09217ceeb2223b4c2d9",
+      "text_sha256": "c8061228be6706d86592e06c992c7303ec757968c978397620017c69383289a0",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000100.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000100.gt.txt",
+      "bytes": 3761,
+      "dimensions": [
+        1318,
+        77
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000083",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000083.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000083.gt.txt",
+      "image_sha256": "b89b3e88df45715948df5ec33ab1d47a09acca250500d75777f9eeec8a41da75",
+      "text_sha256": "d878e3a4cf594f9b1272ccf84f29b518b84e679f888f2e8d8a86d3769a821f5f",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000083.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000083.gt.txt",
+      "bytes": 554,
+      "dimensions": [
+        156,
+        51
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000050",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000050.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000050.gt.txt",
+      "image_sha256": "d5f3d81fb20d1622e76e19246e134876c56c6043c04cc9ba25656989e9d0453f",
+      "text_sha256": "c3fff7e084cc33fb90abbb6c02baf4182f7b1c8e3ad9ccd710f419c333e1769b",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000050.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000050.gt.txt",
+      "bytes": 1844,
+      "dimensions": [
+        602,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000073",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000073.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000073.gt.txt",
+      "image_sha256": "0b6c5bbe5ea51c02fd277b18baba2664ba0946a86745426b6fdda06b25d6b2ad",
+      "text_sha256": "5ae1cefe8c82d739e95343af0bdc482de2c052164d31b248ad321cf9a39c98cf",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000073.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000073.gt.txt",
+      "bytes": 3330,
+      "dimensions": [
+        1197,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000261",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000261.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000261.gt.txt",
+      "image_sha256": "fa51ed67a5ab317d3d4d287c5bd03da2c237c8b2c7f2714b131d3c66a152aae4",
+      "text_sha256": "be8b924f6b004c5d8cec912938e042ab735922c09e7fafc5d3b863d5a57f3806",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000261.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000261.gt.txt",
+      "bytes": 3041,
+      "dimensions": [
+        1165,
+        60
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000247",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000247.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000247.gt.txt",
+      "image_sha256": "f3e52f36bdd7cf380c41496fbc6d6944171babbcfac52aa5c6f91ed8db4176c6",
+      "text_sha256": "7bd1179b3c9aa4481e80084a8dc6f179b316c3086291e81987b3ccb9056b4f93",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000247.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000247.gt.txt",
+      "bytes": 3631,
+      "dimensions": [
+        1182,
+        81
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000297",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000297.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000297.gt.txt",
+      "image_sha256": "6bd049f4284328a433acb624679c12e84b2997451a821ca8208a310f327b483d",
+      "text_sha256": "c94f8feeb23e78430ce39c44a996fadb42acbe0f8ec2ed9aa268fed0bc4e378e",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000297.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000297.gt.txt",
+      "bytes": 3793,
+      "dimensions": [
+        1311,
+        69
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000275",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000275.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000275.gt.txt",
+      "image_sha256": "0f3a70ec916e5ad32eaecdd2e02165ef535fb23d097318f9c5c586e77484cd2e",
+      "text_sha256": "ff570f392f9ed1f81060ff53f8dde97b53e5b03d58e0b0c5a0162071bb0b3795",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000275.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000275.gt.txt",
+      "bytes": 2810,
+      "dimensions": [
+        926,
+        62
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000204",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000204.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000204.gt.txt",
+      "image_sha256": "b807352caec3e7685e5ca1329e10e2750dd7ca113f85c902e8d2c0d9dc09cdef",
+      "text_sha256": "89532544aa27171f004c741762aad799c3dca8ca934c5b6a9e39ea0a54d4c5b2",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000204.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000204.gt.txt",
+      "bytes": 3705,
+      "dimensions": [
+        1198,
+        66
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000143",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000143.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000143.gt.txt",
+      "image_sha256": "725f0c195beed0dbc69f903648fb82c394fe8a7a7ced9bfadaa79452dcb10823",
+      "text_sha256": "fc3a250146b70670413318ef559247c4f316d296169308fbee027b83af4a4c30",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000143.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000143.gt.txt",
+      "bytes": 3561,
+      "dimensions": [
+        1197,
+        79
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000036",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000036.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000036.gt.txt",
+      "image_sha256": "e444da2959617f90127b864df00ad3937a86a3c850cae7abb40025b77bf42fb1",
+      "text_sha256": "2f552894245ec5fd55cf2f75d3c152614e96b132118c57d83523a427b57011f8",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000036.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000036.gt.txt",
+      "bytes": 3730,
+      "dimensions": [
+        1313,
+        95
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000215",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000215.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000215.gt.txt",
+      "image_sha256": "6b118c3c259b84bda7e277d0907af0b2e68700da26037fd3c1752ce3a7d9a58e",
+      "text_sha256": "1078fdf0cda326658d83fdcf5bedd248752afcbf2dda21167d1c636164f94be7",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000215.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000215.gt.txt",
+      "bytes": 4035,
+      "dimensions": [
+        1314,
+        84
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000292",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000292.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000292.gt.txt",
+      "image_sha256": "d9bc7189b62028aacd0cad6183c632ec44fff746504d45ed599096406d9f69eb",
+      "text_sha256": "f8742993036588f34d95c6df17e293e02673952d0215944201b7e64ad86f1d65",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000292.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000292.gt.txt",
+      "bytes": 3385,
+      "dimensions": [
+        1316,
+        68
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000157",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000157.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000157.gt.txt",
+      "image_sha256": "f33dc6d07335e4437dc8c41a993e49c6c735d0ad56ab14ae72e60acde1deaed4",
+      "text_sha256": "11c139a28d9c775c211b0a28e0264271988885f0df08ceda9816b305a997ad8b",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000157.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000157.gt.txt",
+      "bytes": 3266,
+      "dimensions": [
+        1197,
+        79
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000115",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000115.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000115.gt.txt",
+      "image_sha256": "64f9fa15da4d7e055d656a4d7efef7ddb399abe96b97c41839ef5db3ac7a1371",
+      "text_sha256": "c52d0a2491d800add03347550dfcbb7626eb89d490ce20ce23a0411e3df87aee",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000115.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000115.gt.txt",
+      "bytes": 3833,
+      "dimensions": [
+        1317,
+        70
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000052",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000052.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000052.gt.txt",
+      "image_sha256": "79ff830bc59aaed061d9b5ab773b8315e4f5df5f21422f9c49f1fdb6e4ba6bcb",
+      "text_sha256": "56db06060b9f8c63a0e292360dd9011c7760a2d8a0409f3f1f3d4a6bef3937dc",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000052.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000052.gt.txt",
+      "bytes": 4083,
+      "dimensions": [
+        1189,
+        72
+      ]
+    },
+    {
+      "id": "book_IbnQutayba.Adab__000032",
+      "split": "validation",
+      "source_group": "book_IbnQutayba.Adab",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "validation/book_IbnQutayba.Adab__000032.png",
+      "ground_truth": "validation/book_IbnQutayba.Adab__000032.gt.txt",
+      "image_sha256": "efb7098019413d606de97aef059307b14b7258f1950dde0a2479593ed18074a1",
+      "text_sha256": "d2d3237b11aa088a694c12ccb7042fb6396a1dfaa46b4f9a8ba5d6312f24eaff",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000032.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_IbnQutayba.Adab/7_final/000032.gt.txt",
+      "bytes": 1016,
+      "dimensions": [
+        285,
+        71
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000102",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000102.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000102.gt.txt",
+      "image_sha256": "8b42efe228f9690de6974c9d4d1f460d651cdfdf91f792ac0d2f07e96e308420",
+      "text_sha256": "4d5dc2a54aeea53836beec73d3223df1a3f7d0780bc9c7872d28209842020114",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000102.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000102.gt.txt",
+      "bytes": 3250,
+      "dimensions": [
+        1178,
+        66
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000008",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000008.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000008.gt.txt",
+      "image_sha256": "257d602811bb2f4a32c35bba59107403eceae182127759ad672537dc157e82d0",
+      "text_sha256": "b2edcb116dbecfabfb7b27b5f976d5026372966387664c72766bdc655cc94d99",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000008.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000008.gt.txt",
+      "bytes": 3383,
+      "dimensions": [
+        1254,
+        75
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000075",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000075.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000075.gt.txt",
+      "image_sha256": "d555e733f28e287bdb9bf6bfc612757936b8708903b8ba5e18e25d8c852bcd38",
+      "text_sha256": "7c5d5eeea377f708bf5ea0b5cfa784492ff303bc86e617b92df8f8ec958d0e24",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000075.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000075.gt.txt",
+      "bytes": 1988,
+      "dimensions": [
+        639,
+        63
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000164",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000164.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000164.gt.txt",
+      "image_sha256": "bb772fa248cd42de9ac17323815d4e6e562d7438ea941cde66eef857fb89eb8c",
+      "text_sha256": "4318377429df417ac2319be2730cb2401c82d78ae418dda1ac73873490f1c69e",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000164.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000164.gt.txt",
+      "bytes": 3439,
+      "dimensions": [
+        1271,
+        71
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000043",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000043.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000043.gt.txt",
+      "image_sha256": "781e3e42e4405c7fc109bb0d94b966480a0ed5227edeb777ac6611f43f53838c",
+      "text_sha256": "f1d8ffdb0a7cabcdf3596a4f44b05baa8476a174a693bcc2ad76499591eca160",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000043.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000043.gt.txt",
+      "bytes": 2471,
+      "dimensions": [
+        846,
+        68
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000065",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000065.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000065.gt.txt",
+      "image_sha256": "930a92409bac2a0a2722e6fed86917d3e00f296bc82aa8bfe250d7cf0654acb6",
+      "text_sha256": "881b90a913801c87b1d1ec1586a080959b5f5ff604c57ed45c10946685b6c551",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000065.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000065.gt.txt",
+      "bytes": 2339,
+      "dimensions": [
+        811,
+        76
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000293",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000293.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000293.gt.txt",
+      "image_sha256": "e5dace8148eec778905ab4d3138a5a75e439516f9e9eb987ae81be9a2ebea75c",
+      "text_sha256": "c0794b7e9c59933f423cd92808628bd2179895fad520a2d92fe53d8b1b495379",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000293.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000293.gt.txt",
+      "bytes": 1291,
+      "dimensions": [
+        440,
+        63
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000198",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000198.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000198.gt.txt",
+      "image_sha256": "802f0f6600ce400fe7bf717e0591239966f9cb8446dd16ccaece3b2f17628d10",
+      "text_sha256": "18b098a348a743d1ae545c7547bb0bbfbc22af08ed6ed3a5e8e7c41594de4c66",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000198.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000198.gt.txt",
+      "bytes": 3550,
+      "dimensions": [
+        1276,
+        75
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000091",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000091.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000091.gt.txt",
+      "image_sha256": "6e98858f5b936765ca9d3e2c8f1a9c781ed8b834fe762015206862537829bb2f",
+      "text_sha256": "cec8d83058bda7a9fd0ab3fbb79a403e0c71f72176ca8d044d79edadaf494931",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000091.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000091.gt.txt",
+      "bytes": 3250,
+      "dimensions": [
+        1147,
+        81
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000178",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000178.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000178.gt.txt",
+      "image_sha256": "a55339ad2e3a5c24671dc2444c58e0d81c8f0cfc58bbef445826f83d728885b0",
+      "text_sha256": "8e5971c78cfbefb0074824d9d921db00ab9bb042cc60a30c681a37de4032df47",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000178.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000178.gt.txt",
+      "bytes": 3599,
+      "dimensions": [
+        1251,
+        75
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000331",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000331.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000331.gt.txt",
+      "image_sha256": "1e6f6be57653df6a7f99ffdb1e7384203b4d4d49f69b23d4d5f526c9dc23ce96",
+      "text_sha256": "a53c10081850d1f8a1863c5305cd044f37f9bf075fd391f77e7086a683fab5bf",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000331.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000331.gt.txt",
+      "bytes": 3905,
+      "dimensions": [
+        1267,
+        81
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000130",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000130.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000130.gt.txt",
+      "image_sha256": "ba832fd0e6ee093158810eb393e9ba5dedaeb634dc048710a4f7d6176db252e2",
+      "text_sha256": "af0fa1e1eaeab48f5b4be434341af0ad15a1eb2db7a0913978f1712a6da43dba",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000130.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000130.gt.txt",
+      "bytes": 3318,
+      "dimensions": [
+        1172,
+        79
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000332",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000332.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000332.gt.txt",
+      "image_sha256": "24fdf84ad70d7598d7a17b10c3473a1a6e7f9bd680d220778e36c42e2e0566ba",
+      "text_sha256": "709f9d2ff370374b6badf95e7335d665cdaa4c48f063da9435203f246e1164cf",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000332.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000332.gt.txt",
+      "bytes": 3912,
+      "dimensions": [
+        1258,
+        87
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000100",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000100.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000100.gt.txt",
+      "image_sha256": "ccb4ce573c904e5c5a5f734b202b8e6387d0c0706b31d8804d094d5b0e6d7dad",
+      "text_sha256": "4848221e6e7de9aadaad57700ecb25def24cb1b911a10dfb9669b235241a4eb1",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000100.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000100.gt.txt",
+      "bytes": 2170,
+      "dimensions": [
+        648,
+        78
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000083",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000083.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000083.gt.txt",
+      "image_sha256": "55164dcae0c7747f6a2da11d9c22ca79c117055d0b900093f6578a0ab708bb9e",
+      "text_sha256": "6fec3eaa31fdf121573d4a3b8ff2f59d228268e759dec8a7a9485305736d02df",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000083.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000083.gt.txt",
+      "bytes": 3657,
+      "dimensions": [
+        1257,
+        82
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000050",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000050.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000050.gt.txt",
+      "image_sha256": "6cbe24f9e162e9fc95e3da611d27dc5f53cbbdaa83b69f48b79b018bdf98778f",
+      "text_sha256": "852543304a5290c5c46bece9c73bd4838a3522bcccd056059e27f8e0b5de39a3",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000050.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000050.gt.txt",
+      "bytes": 3767,
+      "dimensions": [
+        1272,
+        83
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000073",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000073.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000073.gt.txt",
+      "image_sha256": "bcf5ca69fc622c082f3219e7417c3cf0abf40acf527728063b8dfc8176060980",
+      "text_sha256": "5415436435d85294bf3c47866fb640578cc9cc1bfc4c54b3a66a0299fd9c7905",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000073.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000073.gt.txt",
+      "bytes": 3658,
+      "dimensions": [
+        1257,
+        70
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000260",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000260.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000260.gt.txt",
+      "image_sha256": "843c24bbcfcc94cf81547b1b5c1b3b6d1d41f2630bac1502dea017a8b0357c5f",
+      "text_sha256": "7382b954c16a8d8a11c35a6f77da92f5a9bd7b4ef32f1e3326a55afaa26f46b7",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000260.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000260.gt.txt",
+      "bytes": 2850,
+      "dimensions": [
+        1256,
+        54
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000246",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000246.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000246.gt.txt",
+      "image_sha256": "ee2e392b76dda4b5e1a28c071f8fd06b326b0d2dc7035b4e8e7f57c8ccc2c7bc",
+      "text_sha256": "d1dcc37e636c425dd5c4a40995cb0b520c24836878eff97db0eb4a9495cb48bc",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000246.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000246.gt.txt",
+      "bytes": 3435,
+      "dimensions": [
+        1259,
+        79
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000292",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000292.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000292.gt.txt",
+      "image_sha256": "aa14417c92db61dbf77710ab241e91a77e814e4df33fe9c0537cfb02271010c9",
+      "text_sha256": "584ae65a7eea7e5ba713e7f4ac099805211131d9b0fcdbb142aaf6eb60e4ad68",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000292.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000292.gt.txt",
+      "bytes": 3689,
+      "dimensions": [
+        1276,
+        77
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000274",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000274.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000274.gt.txt",
+      "image_sha256": "c3522cfd01f418011a09b85c63cc228a3d6b0d97517b7096176d7191d58e8c72",
+      "text_sha256": "217874ad8c55da55ad612c90afa3a132814a89439f6c85fad498b931d923820a",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000274.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000274.gt.txt",
+      "bytes": 2230,
+      "dimensions": [
+        721,
+        84
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000202",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000202.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000202.gt.txt",
+      "image_sha256": "4c6fd80bd6e876792c349a5a5e52519176281b9338026a762b88b659271848d8",
+      "text_sha256": "ee709bbc3698a10b38ac8550b27d7100c3d4cee9ea62b2fca672211e79f0a275",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000202.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000202.gt.txt",
+      "bytes": 3216,
+      "dimensions": [
+        1266,
+        70
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000142",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000142.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000142.gt.txt",
+      "image_sha256": "52c2ce96fe0d252e9a3fe8fe1225e8926f9525a2120835cb8750e41ac1ac4a74",
+      "text_sha256": "7e41dbd1f88af4078c7c88a349998274731d99a66357644ced6dc2738218d424",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000142.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000142.gt.txt",
+      "bytes": 3759,
+      "dimensions": [
+        1266,
+        73
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000036",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000036.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000036.gt.txt",
+      "image_sha256": "a1e32acefe8803ed836851d5ece76f7330ec51717870d3540d16e4b1e9ac8940",
+      "text_sha256": "29d0901119f0d1ddfd61bdd4b4cc3e3ecd206167d906314a2e3c9d96d9452ef0",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000036.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000036.gt.txt",
+      "bytes": 3825,
+      "dimensions": [
+        1263,
+        71
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000212",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000212.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000212.gt.txt",
+      "image_sha256": "f65291f10671786b3e8499da120c69b4c4b3b11d7dd59e59033dc2f5f28dd80f",
+      "text_sha256": "2642b6d86ee618cdeb7088c16ad0c13f15456f0f847e16553d9871ff437ab887",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000212.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000212.gt.txt",
+      "bytes": 3714,
+      "dimensions": [
+        1264,
+        73
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000287",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000287.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000287.gt.txt",
+      "image_sha256": "c528fa5d4c9dcc4d0e180f298e2db3c1a743363f1c93f7c1bef87130e35fce86",
+      "text_sha256": "072f9e0cb67f5d3443b15e585662db5e8416be68f86f628898edee5a70d4ef5d",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000287.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000287.gt.txt",
+      "bytes": 2036,
+      "dimensions": [
+        570,
+        85
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000156",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000156.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000156.gt.txt",
+      "image_sha256": "2156b6c8fd443c669816b10d255fed16ee12c536dfbefec9f41e4a070bc0c91d",
+      "text_sha256": "7a5785dcbbe2c9b0e334e53815a15c269db86d3cb17be0d76ce36bd9a0a6d3a4",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000156.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000156.gt.txt",
+      "bytes": 3561,
+      "dimensions": [
+        1265,
+        62
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000115",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000115.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000115.gt.txt",
+      "image_sha256": "5a244090703f43888f16c396f92ca0ae563342e85703be1989892fa6aeca5c38",
+      "text_sha256": "328f5bd1a3669462dc458ad448f285fd90142dbb2b6741b5b25da9b84d6cb334",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000115.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000115.gt.txt",
+      "bytes": 3339,
+      "dimensions": [
+        1264,
+        69
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000052",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000052.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000052.gt.txt",
+      "image_sha256": "611b4677619e06ff1ad7acbec6fa96bdc18c4950cbd55d2d0af51329cfed55eb",
+      "text_sha256": "1aa3c8c03825dc4e7ff3f1c7f0fed31f106135a21e527ea84233eb1906fdcafb",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000052.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000052.gt.txt",
+      "bytes": 3425,
+      "dimensions": [
+        1144,
+        78
+      ]
+    },
+    {
+      "id": "book_Jahiz.Hayawan__000032",
+      "split": "test",
+      "source_group": "book_Jahiz.Hayawan",
+      "source_revision": "946b966ddc35e82bd2a8ec39cc552d1c4f202b7e",
+      "license": "CC-BY-NC-SA-4.0",
+      "image": "test/book_Jahiz.Hayawan__000032.png",
+      "ground_truth": "test/book_Jahiz.Hayawan__000032.gt.txt",
+      "image_sha256": "01f268359afc1565e27c2e67aa08c944e6806584587c27504a4c6c283c0311d1",
+      "text_sha256": "fa27747df0701a2a09943fbfdecb659c1374a79a7b04aaea53854b0088f37700",
+      "image_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000032.png",
+      "text_source": "https://raw.githubusercontent.com/OpenITI/OCR_GS_Data/946b966ddc35e82bd2a8ec39cc552d1c4f202b7e/ara/book_Jahiz.Hayawan/7_final/000032.gt.txt",
+      "bytes": 2742,
+      "dimensions": [
+        942,
+        67
+      ]
+    }
+  ]
+}
